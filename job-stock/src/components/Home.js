@@ -27,9 +27,9 @@ const Styles = styled.div`
     }
 
     .text-size {
-        margin-top: 180px;
+        margin-top: 230px;
         color: black;
-        font-size: 4em;
+        font-size: 3em;
         font-weight: bold;
         // margin: 90px 10px 0px 10px;
     }
