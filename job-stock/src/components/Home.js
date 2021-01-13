@@ -16,6 +16,15 @@ import {HowItWorks} from './HowItWorks';
 import step1 from '../assets/img/step-1.png';
 import step2 from '../assets/img/step-2.png';
 import step3 from '../assets/img/step-3.png';
+import client1 from '..//assets/img/client-1.jpg';
+import client2 from '..//assets/img/client-2.jpg';
+import client3 from '..//assets/img/client-3.jpg';
+import can1 from '../assets/img/can-1.png';
+import can2 from '../assets/img/can-2.png';
+import can3 from '../assets/img/can-3.png';
+import can5 from '../assets/img/can-5.jpg';
+
+
 
 
 export const Home = () => (
@@ -147,11 +156,11 @@ export const Home = () => (
 
         {/* <how it works section> */}
 
-        <section class="how-it-works">
+        <section className="how-it-works">
         <Container>
             <Row data-aos="fade-up">
                 <Col md={12}>
-                    <div class="main-heading">
+                    <div className="main-heading">
                         <p>Working Process</p>
                         <h2>How It <span>Works</span></h2>
                     </div>
@@ -187,6 +196,199 @@ export const Home = () => (
                     </Col>
             </Row>
         </Container>
+    </section> <br/><br/><br/>
+
+    {/* Adding CSS of testimonials and hire freelancers */}
+
+    <section className="testimonial">
+        <Container>
+            <Row>
+                <Col md={12}>
+                <div className="main-heading">
+                    <p>What Say Our Client</p>
+                    <h2>Our Success <span>Stories</span></h2>
+                </div>
+                </Col>
+            </Row>
+            <Row>
+                <div id="client-testimonial-slider" className="owl-carousel">
+                <Col md={4} sm={6}>
+                    <div className="client-testimonial">
+                        <div className="pic"><img src={client1} alt="" /></div>
+                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor et dolore magna aliqua.</p>
+                        <h3 className="client-testimonial-title">Lacky Mole</h3>
+                        <ul className="client-testimonial-rating">
+                            <li className="fa fa-star-o"></li>
+                            <li className="fa fa-star-o"></li>
+                            <li className="fa fa-star"></li>
+                        </ul>
+                    </div>
+                    </Col>
+                    <Col md={4} sm={6}>
+                    <div className="client-testimonial">
+                        <div className="pic"><img src={client2} alt="" /></div>
+                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor et dolore magna aliqua.</p>
+
+                        <h3 className="client-testimonial-title">Karan Wessi</h3>
+                        <ul className="client-testimonial-rating">
+                            <li className="fa fa-star-o"></li>
+                            <li className="fa fa-star"></li>
+                            <li className="fa fa-star"></li>
+                        </ul>
+                    </div>
+                    </Col>
+                    <Col md={4} sm={6}>
+                    <div className="client-testimonial">
+                        <div className="pic"><img src={client3} alt=""/></div>
+                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor et dolore magna aliqua.</p>
+
+                        <h3 className="client-testimonial-title">Roul Pinchai</h3>
+                        <ul className="client-testimonial-rating">
+                            <li className="fa fa-star-o"></li>
+                            <li className="fa fa-star-o"></li>
+                            <li className="fa fa-star"></li>
+                        </ul>
+                    </div>
+                    </Col>
+                    <Col md={4} sm={6}>
+                    <div className="client-testimonial">
+                        <div className="pic"><img src={client2} alt=""/></div>
+                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor et dolore magna aliqua.</p>
+
+                        <h3 className="client-testimonial-title">Adam Jinna</h3>
+                        <ul className="client-testimonial-rating">
+                            <li className="fa fa-star-o"></li>
+                            <li className="fa fa-star-o"></li>
+                            <li className="fa fa-star"></li>
+                        </ul>
+                    </div>
+                    </Col>
+                </div>
+            </Row>
+        </Container>
     </section>
+
+
+    {/* // Hire Freelancers  */}
+
+
+
+    <section className="pricing mt-5">
+        <Container>
+            <Row>
+                <div className="col-md-12">
+                    <div className="main-heading">
+                        <p>Top Freelancer</p>
+                        <h2>Hire Expert <span>Freelancer</span></h2>
+                    </div>
+                </div>
+            </Row>
+            <Row>
+                <Col md={4} sm={6}>
+                    <div className="freelance-container style-2">
+                        <div className="freelance-box">
+                            <span className="freelance-status">Available</span>
+                            <h4 className="flc-rate">$17/hr</h4>
+
+                            <div className="freelance-inner-box">
+                                <div className="freelance-box-thumb"><img src={can1} height="104px"
+                                                                      className="img-responsive img-circle" alt=""/></div>
+                                <div className="freelance-box-detail">
+                                    <h4>Agustin L. Smith</h4>
+                                    <span className="location">Australia</span>
+                                </div>
+                                <div className="rattings"><i className="fa fa-star fill"></i><i className="fa fa-star fill"></i><i
+                                        className="fa fa-star fill"></i><i className="fa fa-star-half fill"></i><i
+                                        className="fa fa-star"></i></div>
+                            </div>
+                            <div className="freelance-box-extra">
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui.</p>
+                                <ul>
+                                    <li>Php</li>
+                                    <li>Android</li>
+                                    <li>Html</li>
+                                    <li className="more-skill bg-primary">+3</li>
+                                </ul>
+                            </div>
+                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-secondary">View Detail</a>
+                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-primary">View Detail</a>
+                        </div>
+                    </div>
+                </Col>
+                <Col md={4} sm={6}>
+                    <div className="freelance-container style-2">
+                        <div className="freelance-box">
+                            <span className="freelance-status bg-warning">At Work</span>
+                            <h4 className="flc-rate">$22/hr</h4>
+
+                            <div className="freelance-inner-box">
+                                <div className="freelance-box-thumb"><img src={can3} height="104px"
+                                                                      className="img-responsive img-circle" alt=""/></div>
+                                <div className="freelance-box-detail">
+                                    <h4>Delores R. Williams</h4>
+                                    <span className="location">United States</span>
+                                </div>
+                                <div className="rattings"><i className="fa fa-star fill"></i><i className="fa fa-star fill"></i><i
+                                        className="fa fa-star fill"></i><i className="fa fa-star-half fill"></i><i
+                                        className="fa fa-star"></i></div>
+                            </div>
+                            <div className="freelance-box-extra">
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui.</p>
+                                <ul>
+                                    <li>Php</li>
+                                    <li>Android</li>
+                                    <li>Html</li>
+                                    <li className="more-skill bg-primary">+3</li>
+                                </ul>
+                            </div>
+                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-secondary">View Detail</a><a
+                                href="freelancer-detail.html" className="btn btn-freelance-two bg-info">View Detail</a>
+                        </div>
+                    </div>
+                </Col>
+                <Col md={4} sm={6}>
+                    <div className="freelance-container style-2">
+                        <div className="freelance-box">
+                            <span className="freelance-status">Available</span>
+                            <h4 className="flc-rate">$19/hr</h4>
+
+                            <div className="freelance-inner-box">
+                                <div className="freelance-box-thumb"><img src={can5} height="104px"
+                                                                      className="img-responsive img-circle" alt=""/></div>
+                                <div className="freelance-box-detail">
+                                    <h4>Daniel Disroyer</h4>
+                                    <span className="location">Bangladesh</span>
+                                </div>
+                                <div className="rattings"><i className="fa fa-star fill"></i><i className="fa fa-star fill"></i><i
+                                        className="fa fa-star fill"></i><i className="fa fa-star-half fill"></i><i
+                                        className="fa fa-star"></i></div>
+                            </div>
+                            <div className="freelance-box-extra">
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui.</p>
+                                <ul>
+                                    <li>Php</li>
+                                    <li>Android</li>
+                                    <li>Html</li>
+                                    <li className="more-skill bg-primary">+3</li>
+                                </ul>
+                            </div>
+                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-secondary">View Detail</a>
+                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-info">View Detail</a>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12} sm={12}>
+                    <div className="text-center"><a href="freelancers-2.html" style={{backgroundColor:'#03a504', display:'inline-block', padding:'7px 30px', fontSize:'20px', color:'white'}}>Load More</a></div>
+                </Col>
+            </Row>
+        </Container>
+        </section> <br/> <br/> <br/>
+
     </Styles>
 );
