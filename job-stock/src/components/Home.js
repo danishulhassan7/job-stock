@@ -205,13 +205,14 @@ export const Home = () => (
             <Row>
                 <Col md={12}>
                 <div className="main-heading">
+                    <br/><br/><br/>
                     <p>What Say Our Client</p>
                     <h2>Our Success <span>Stories</span></h2>
                 </div>
                 </Col>
             </Row>
             <Row>
-                <div id="client-testimonial-slider" className="owl-carousel">
+                {/* <div id="client-testimonial-slider" className="owl-carousel"> */}
                 <Col md={4} sm={6}>
                     <div className="client-testimonial">
                         <div className="pic"><img src={client1} alt="" /></div>
@@ -253,23 +254,9 @@ export const Home = () => (
                         </ul>
                     </div>
                     </Col>
-                    <Col md={4} sm={6}>
-                    <div className="client-testimonial">
-                        <div className="pic"><img src={client2} alt=""/></div>
-                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor et dolore magna aliqua.</p>
-
-                        <h3 className="client-testimonial-title">Adam Jinna</h3>
-                        <ul className="client-testimonial-rating">
-                            <li className="fa fa-star-o"></li>
-                            <li className="fa fa-star-o"></li>
-                            <li className="fa fa-star"></li>
-                        </ul>
-                    </div>
-                    </Col>
-                </div>
+                {/* </div> */}
             </Row>
-        </Container>
+        </Container> <br/> <br/>
     </section>
 
 
