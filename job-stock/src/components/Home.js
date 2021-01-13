@@ -4,7 +4,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import HomeImg from '../assets/img/home.jpg';
-import comImg from '../assets/img/com-1.jpg';
+import comImg1 from '../assets/img/com-1.jpg';
+import comImg2 from '../assets/img/com-2.jpg';
+import comImg3 from '../assets/img/com-3.jpg';
+import comImg4 from '../assets/img/com-4.jpg';
+import comImg5 from '../assets/img/com-5.jpg';
+import comImg6 from '../assets/img/com-6.jpg';
+import comImg7 from '../assets/img/com-7.jpg';
+
+import step1 from '../assets/img/step-1.png';
+import step2 from '../assets/img/step-2.png';
+import step3 from '../assets/img/step-3.png';
+
+
 
 
 
@@ -384,6 +396,51 @@ span.job-num {
 
 }
 
+
+
+
+// styling of how it works 
+
+.working-process {
+	text-align: center;
+	position: relative;
+	margin-top: 30px
+}
+
+.working-process h4 {
+	margin: 10px 0
+}
+
+.working-process p {
+	padding: 2px 15px;
+	line-height: 1.9
+}
+
+.process-icon,
+span.process-img {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	display: inline-block
+}
+
+span.process-img {
+	margin: 15px auto 0
+}
+
+span.process-img img {
+	z-index: 1
+}
+
+span.process-num {
+	position: absolute;
+	font-size: 60px;
+	font-weight: 600;
+	opacity: .1;
+	left: -30px;
+	top: -10px
+}
+
 `;
 
 export const Home = () => (
@@ -412,7 +469,7 @@ export const Home = () => (
                 <Row className="row extra-mrg">
                     <Col md={3} sm={6}>
                         <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg} className="img-responsive"
+                            <div className="brows-job-company-img"><img src={comImg1} className="img-responsive"
                                 alt="" /></div>
                             <div className="brows-job-position">
                                 <h3><a href="job-detail.html">Web Developer</a></h3>
@@ -433,8 +490,228 @@ export const Home = () => (
                             </ul>
                         </div>
                     </Col>
+
+                    <Col md={3} sm={6}>
+                        <div className="grid-view brows-job-list">
+                            <div className="brows-job-company-img"><img src={comImg2} className="img-responsive"
+                                alt="" /></div>
+                            <div className="brows-job-position">
+                                <h3><a href="job-detail.html">Web Developer</a></h3>
+
+                                <p><span>Google</span></p>
+                            </div>
+                            <div className="job-position"><span className="job-num">5 Position</span></div>
+                            <div className="brows-job-type"><span className="freelanc">Freelancer</span></div>
+                            <ul className="grid-view-caption">
+                                <li>
+                                    <div className="brows-job-location">
+                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+
+                    <Col md={3} sm={6}>
+                        <div className="grid-view brows-job-list">
+                            <div className="brows-job-company-img"><img src={comImg3} className="img-responsive"
+                                alt="" /></div>
+                            <div className="brows-job-position">
+                                <h3><a href="job-detail.html">Web Developer</a></h3>
+
+                                <p><span>Google</span></p>
+                            </div>
+                            <div className="job-position"><span className="job-num">5 Position</span></div>
+                            <div className="brows-job-type"><span className="full-time">Full Time</span></div>
+                            <ul className="grid-view-caption">
+                                <li>
+                                    <div className="brows-job-location">
+                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+
+                    <Col md={3} sm={6}>
+                        <div className="grid-view brows-job-list">
+                            <div className="brows-job-company-img"><img src={comImg4} className="img-responsive"
+                                alt="" /></div>
+                            <div className="brows-job-position">
+                                <h3><a href="job-detail.html">Web Developer</a></h3>
+
+                                <p><span>Google</span></p>
+                            </div>
+                            <div className="job-position"><span className="job-num">5 Position</span></div>
+                            <div className="brows-job-type"><span className="enternship">Internship</span></div>
+                            <ul className="grid-view-caption">
+                                <li>
+                                    <div className="brows-job-location">
+                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+                </Row>
+
+                {/* 2nd row of cards  */}
+                <Row className="row extra-mrg">
+                    <Col md={3} sm={6}>
+                        <div className="grid-view brows-job-list">
+                            <div className="brows-job-company-img"><img src={comImg5} className="img-responsive"
+                                alt="" /></div>
+                            <div className="brows-job-position">
+                                <h3><a href="job-detail.html">Web Developer</a></h3>
+
+                                <p><span>Google</span></p>
+                            </div>
+                            <div className="job-position"><span className="job-num">5 Position</span></div>
+                            <div className="brows-job-type"><span className="part-time">Part Time</span></div>
+                            <ul className="grid-view-caption">
+                                <li>
+                                    <div className="brows-job-location">
+                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+
+                    <Col md={3} sm={6}>
+                        <div className="grid-view brows-job-list">
+                            <div className="brows-job-company-img"><img src={comImg6} className="img-responsive"
+                                alt="" /></div>
+                            <div className="brows-job-position">
+                                <h3><a href="job-detail.html">Web Developer</a></h3>
+
+                                <p><span>Google</span></p>
+                            </div>
+                            <div className="job-position"><span className="job-num">5 Position</span></div>
+                            <div className="brows-job-type"><span className="freelanc">Freelancer</span></div>
+                            <ul className="grid-view-caption">
+                                <li>
+                                    <div className="brows-job-location">
+                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+
+                    <Col md={3} sm={6}>
+                        <div className="grid-view brows-job-list">
+                            <div className="brows-job-company-img"><img src={comImg7} className="img-responsive"
+                                alt="" /></div>
+                            <div className="brows-job-position">
+                                <h3><a href="job-detail.html">Web Developer</a></h3>
+
+                                <p><span>Google</span></p>
+                            </div>
+                            <div className="job-position"><span className="job-num">5 Position</span></div>
+                            <div className="brows-job-type"><span className="full-time">Full Time</span></div>
+                            <ul className="grid-view-caption">
+                                <li>
+                                    <div className="brows-job-location">
+                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+
+                    <Col md={3} sm={6}>
+                        <div className="grid-view brows-job-list">
+                            <div className="brows-job-company-img"><img src={comImg3} className="img-responsive"
+                                alt="" /></div>
+                            <div className="brows-job-position">
+                                <h3><a href="job-detail.html">Web Developer</a></h3>
+
+                                <p><span>Google</span></p>
+                            </div>
+                            <div className="job-position"><span className="job-num">5 Position</span></div>
+                            <div className="brows-job-type"><span className="enternship">Internship</span></div>
+                            <ul className="grid-view-caption">
+                                <li>
+                                    <div className="brows-job-location">
+                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </section>
+        <br/> <br/> <br/>
+
+        {/* <how it works section> */}
+
+        <section class="how-it-works">
+        <Container>
+            <Row data-aos="fade-up">
+                <Col md={12}>
+                    <div class="main-heading">
+                        <p>Working Process</p>
+
+                        <h2>How It <span>Works</span></h2>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={4} sm={4}>
+                    <div className="working-process">
+                        <span className="process-img"><img src={step1} height="60px" className="img-responsive ml-3 mt-4" alt=""/><span
+                                className="process-num">01</span></span>
+                        <h6 className="text-muted mt-3">Create An Account</h6>
+
+                        <p className="text-muted" style={{fontSize:"85%", fontStyle:"italic"}}>Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                            find place best.</p>
+                    </div>
+                </Col>
+                <Col md={4} sm={4}>
+                    <div className="working-process">
+                        <span className="process-img"><img src={step2} height="60px" className="img-responsive ml-3 mt-4" alt=""/><span
+                                className="process-num">02</span></span>
+                        <h6 className="text-muted mt-3">Search Jobs</h6>
+
+                        <p className="text-muted" style={{fontSize:"85%", fontStyle:"italic"}}>Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                            find place best.</p>
+                    </div>
+                </Col>
+                <Col md={4} sm={4}>
+                    <div className="working-process">
+                        <span className="process-img"><img src={step3} height="60px" className="img-responsive ml-3 mt-4" alt=""/><span
+                                className="process-num">03</span></span>
+                        <h6 className="text-muted mt-3">Save & Apply</h6>
+
+                        <p className="text-muted" style={{fontSize:"85%", fontStyle:"italic"}}>Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                            find place best.</p>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+    </section>
     </Styles>
 );
