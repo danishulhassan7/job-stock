@@ -423,6 +423,278 @@ span.process-num {
 	top: -10px
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Adding CSS of testimonials and hire freelancers
+
+.testimonial {
+	background: #f4f7f7
+}
+.client-testimonial .client-description,
+.work-process-caption p {
+	color: #707c88;
+	font-size: 14px;
+	font-family: Montserrat, sans-serif
+}
+.client-testimonial {
+	text-align: center;
+	margin: 50px 10px 0;
+	padding: 0 10% 4%;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+	-o-shadow: 0 0 10px 0 rgba(0, 0, 0, .1)
+}
+
+.client-testimonial .pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border-bottom: 2px solid #07b107;
+	display: inline-block;
+	margin-top: -50px;
+	overflow: hidden;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .15)
+}
+
+.client-testimonial .pic img {
+	width: 100%;
+	height: auto
+}
+
+.client-testimonial .client-description {
+	line-height: 30px;
+	margin: 10px 0 5px
+}
+
+.client-testimonial .client-testimonial-title {
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0;
+	color: #55646f;
+	text-transform: uppercase
+}
+
+.client-testimonial .client-testimonial-rating {
+	margin: 0 0 15px;
+	padding: 0;
+	list-style: none
+}
+
+.client-testimonial .client-testimonial-rating li {
+	color: #4caf50;
+	display: inline-block
+}
+
+.client-testimonial .client-testimonial-rating li.fa-star {
+	color: #4caf50
+}
+.client-testimonial .pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border-bottom: 2px solid #07b107;
+	display: inline-block;
+	margin-top: -50px;
+	overflow: hidden;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .15)
+}
+.client-testimonial .pic img {
+	width: 100%;
+	height: auto
+}
+.client-testimonial .client-testimonial-title {
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0;
+	color: #55646f;
+	text-transform: uppercase
+}
+.client-testimonial .client-testimonial-rating {
+	margin: 0 0 15px;
+	padding: 0;
+	list-style: none
+}
+
+.client-testimonial .client-testimonial-rating li {
+	color: #4caf50;
+	display: inline-block
+}
+
+.client-testimonial .client-testimonial-rating li.fa-star {
+	color: #4caf50
+}
+.freelance-container {
+	background: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 30px;
+	position: relative;
+	transition: .4s;
+	border: 1px solid #eaeff5
+}
+.freelance-container:focus,
+.freelance-container:hover {
+	transform: translateY(-5px);
+	-webkit-transform: translateY(-5px);
+	cursor: pointer
+}
+.style-2 .freelance-box {
+	padding: 40px 20px 35px
+}
+.freelance-box-thumb,
+.style-2 .freelance-box-thumb {
+	border-radius: 50%;
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+	overflow: hidden
+}
+.style-2 .freelance-box-thumb {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 15px;
+	-webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08)
+}
+.style-2 .freelance-box-extra ul li {
+	border-radius: 2px
+}
+.style-2 .sidebar-box {
+	padding: 40px 20px 35px
+}
+.style-2 .sidebar-box-thumb {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 15px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+	-webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08)
+}
+.grid-slide .grid-slide-box:focus,
+.grid-slide-2 .freelance-box:focus {
+	outline: 0
+}
+.freelance-box {
+	text-align: center;
+	padding: 40px 20px 15px
+}
+
+.style-2 .freelance-box {
+	padding: 40px 20px 35px
+}
+.freelance-status {
+	position: absolute;
+	left: 32px;
+	top: 25px;
+	background: #01c73d;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 4px 18px;
+	border-radius: 50px;
+	font-weight: 500
+}
+.flc-rate,
+.sidebar-status {
+	position: absolute;
+	font-weight: 500
+}
+.flc-rate {
+	right: 32px;
+	top: 20px;
+	font-size: 18px
+}
+.freelance-inner-box {
+	padding: 50px 20px 10px;
+	text-align: center
+}
+.freelance-box-thumb,
+.style-2 .freelance-box-thumb {
+	border-radius: 50%;
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+	overflow: hidden
+}
+
+.freelance-box-thumb {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto 25px;
+	-webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08)
+}
+
+.style-2 .freelance-box-thumb {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 15px;
+	-webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08)
+}
+
+.freelance-box-detail h4 {
+	margin-bottom: 4px;
+	font-size: 20px;
+	text-transform: capitalize
+}
+
+.freelance-box-detail .desination,
+.freelance-box-detail .location {
+	font-weight: 500;
+	font-size: 15px;
+	display: block;
+	color: #677484
+}
+.rattings .fa {
+	color: #99abb9
+}
+
+.rattings .fa.fill {
+	color: #FF9800
+}
+.freelance-box-extra ul {
+	margin: 15px 0;
+	padding: 0
+}
+
+.freelance-box-extra ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 3px 15px;
+	border: 1px solid #b9c5ce;
+	border-radius: 50px;
+	margin: 5px;
+	font-weight: 500;
+	color: #657180
+}
+
+.freelance-box-extra ul li.more-skill {
+	color: #fff;
+	border-color: #1194f7
+}
+
+.style-2 .freelance-box-extra ul li {
+	border-radius: 2px
+}
+
+.btn.btn-freelance-two {
+	border-radius: 2px;
+	color: #fff;
+	padding: 9px 17px
+}
 `;
 
 export default Styles;
