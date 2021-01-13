@@ -1,12 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-// import styled from 'styled-components';
 import Styles from './Styles';
-import step1 from '../assets/img/step-1.png';
-import step2 from '../assets/img/step-2.png';
-import step3 from '../assets/img/step-3.png';
-
+import {HowItWorks} from './HowItWorks';
 
 export const Freelancing = () => (
     <Styles>
@@ -36,13 +32,12 @@ export const Freelancing = () => (
                 </Row>
                 <Row>
                     <Col md={4} sm={4}>
-                        <div className="working-process">
-                            <span className="process-img"><img src={step1} height="60px" className="img-responsive ml-3 mt-4" alt="" /><span
-                                className="process-num">01</span></span>
-                            <h6 className="text-muted mt-3">Create An Account</h6>
-                            <p className="text-muted" style={{ fontSize: "85%", fontStyle: "italic" }}>Post a job to tell us about your project. We'll quickly match you with the right freelancers
-                            find place best.</p>
-                        </div>
+                    <HowItWorks
+                    count="01"
+                    heading="Create an Account"
+                    desc="Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                    find place best."
+                    />
                     </Col>
                 </Row>
             </Container>
