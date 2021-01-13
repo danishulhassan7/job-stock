@@ -3,6 +3,7 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Styles from './Styles';
+import {NewJobs} from './NewJobs';
 import HomeImg from '../assets/img/home.jpg';
 import comImg1 from '../assets/img/com-1.jpg';
 import comImg2 from '../assets/img/com-2.jpg';
@@ -11,7 +12,7 @@ import comImg4 from '../assets/img/com-4.jpg';
 import comImg5 from '../assets/img/com-5.jpg';
 import comImg6 from '../assets/img/com-6.jpg';
 import comImg7 from '../assets/img/com-7.jpg';
-
+import {HowItWorks} from './HowItWorks';
 import step1 from '../assets/img/step-1.png';
 import step2 from '../assets/img/step-2.png';
 import step3 from '../assets/img/step-3.png';
@@ -35,205 +36,109 @@ export const Home = () => (
                     <Col>
                         <div className="main-heading">
                             <p>200 New Jobs</p>
-
                             <h2>New and Random <span>Jobs</span></h2>
                         </div>
                     </Col>
                 </Row>
                 <Row className="row extra-mrg">
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg1} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="part-time">Part Time</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                        <NewJobs 
+                        img = {comImg1}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Part Time"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "part-time"
+                        />
                     </Col>
-
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg2} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="freelanc">Freelancer</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                    <NewJobs 
+                        img = {comImg2}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Full Time"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "full-time"
+                        />
                     </Col>
-
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg3} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="full-time">Full Time</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                        <NewJobs 
+                        img = {comImg3}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Freelancer"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "freelanc"
+                        />
                     </Col>
-
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg4} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="enternship">Internship</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                    <NewJobs 
+                        img = {comImg4}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Internship"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "enternship"
+                        />
                     </Col>
                 </Row>
-
-                {/* 2nd row of cards  */}
-                <Row className="row extra-mrg">
+{/* Adding second row */}
+                    <Row className="row extra-mrg">
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg5} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="part-time">Part Time</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                        <NewJobs 
+                        img = {comImg5}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Freelancer"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "freelanc"
+                        />
                     </Col>
-
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg6} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="freelanc">Freelancer</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                    <NewJobs 
+                        img = {comImg6}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Full Time"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "full-time"
+                        />
                     </Col>
-
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg7} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="full-time">Full Time</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                        <NewJobs 
+                        img = {comImg7}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Internship"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "enternship"
+                        />
                     </Col>
-
                     <Col md={3} sm={6}>
-                        <div className="grid-view brows-job-list">
-                            <div className="brows-job-company-img"><img src={comImg3} className="img-responsive"
-                                alt="" /></div>
-                            <div className="brows-job-position">
-                                <h3><a href="job-detail.html">Web Developer</a></h3>
-
-                                <p><span>Google</span></p>
-                            </div>
-                            <div className="job-position"><span className="job-num">5 Position</span></div>
-                            <div className="brows-job-type"><span className="enternship">Internship</span></div>
-                            <ul className="grid-view-caption">
-                                <li>
-                                    <div className="brows-job-location">
-                                        <p><i className="fa fa-map-marker"></i>QBL Park, C40</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p><span className="brows-job-sallery"><i className="fa fa-money"></i>$110 - 200</span></p>
-                                </li>
-                            </ul>
-                        </div>
+                    <NewJobs 
+                        img = {comImg3}
+                        title = "Web Developer"
+                        company = "Google"
+                        position="15 Positions"
+                        time = "Full-time"
+                        location = "QBL Park, C40"
+                        salary = "$110 - 200"
+                        class = "full-time"
+                        />
                     </Col>
                 </Row>
             </Container>
@@ -248,42 +153,38 @@ export const Home = () => (
                 <Col md={12}>
                     <div class="main-heading">
                         <p>Working Process</p>
-
                         <h2>How It <span>Works</span></h2>
                     </div>
                 </Col>
             </Row>
             <Row>
-                <Col md={4} sm={4}>
-                    <div className="working-process">
-                        <span className="process-img"><img src={step1} height="60px" className="img-responsive ml-3 mt-4" alt=""/><span
-                                className="process-num">01</span></span>
-                        <h6 className="text-muted mt-3">Create An Account</h6>
-
-                        <p className="text-muted" style={{fontSize:"85%", fontStyle:"italic"}}>Post a job to tell us about your project. We'll quickly match you with the right freelancers
-                            find place best.</p>
-                    </div>
-                </Col>
-                <Col md={4} sm={4}>
-                    <div className="working-process">
-                        <span className="process-img"><img src={step2} height="60px" className="img-responsive ml-3 mt-4" alt=""/><span
-                                className="process-num">02</span></span>
-                        <h6 className="text-muted mt-3">Search Jobs</h6>
-
-                        <p className="text-muted" style={{fontSize:"85%", fontStyle:"italic"}}>Post a job to tell us about your project. We'll quickly match you with the right freelancers
-                            find place best.</p>
-                    </div>
-                </Col>
-                <Col md={4} sm={4}>
-                    <div className="working-process">
-                        <span className="process-img"><img src={step3} height="60px" className="img-responsive ml-3 mt-4" alt=""/><span
-                                className="process-num">03</span></span>
-                        <h6 className="text-muted mt-3">Save & Apply</h6>
-
-                        <p className="text-muted" style={{fontSize:"85%", fontStyle:"italic"}}>Post a job to tell us about your project. We'll quickly match you with the right freelancers
-                            find place best.</p>
-                    </div>
-                </Col>
+               <Col md={4} sm={4}>
+                    <HowItWorks
+                    count="01"
+                    heading="Create an Account"
+                    desc="Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                    find place best."
+                    img = {step1}
+                    />
+                    </Col>
+                    <Col md={4} sm={4}>
+                    <HowItWorks
+                    count="02"
+                    heading="Save & Apply"
+                    desc="Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                    find place best."
+                    img = {step3}
+                    />
+                    </Col>
+                    <Col md={4} sm={4}>
+                    <HowItWorks
+                    count="03"
+                    heading="Search Jobs"
+                    desc="Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                    find place best."
+                    img = {step2}
+                    />
+                    </Col>
             </Row>
         </Container>
     </section>

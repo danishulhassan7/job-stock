@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Styles from './Styles';
 import {HowItWorks} from './HowItWorks';
+import step1 from '../assets/img/step-1.png';
+import step2 from '../assets/img/step-2.png';
+import step3 from '../assets/img/step-3.png';
+
 
 export const Freelancing = () => (
     <Styles>
@@ -37,6 +41,25 @@ export const Freelancing = () => (
                     heading="Create an Account"
                     desc="Post a job to tell us about your project. We'll quickly match you with the right freelancers
                     find place best."
+                    img = {step1}
+                    />
+                    </Col>
+                    <Col md={4} sm={4}>
+                    <HowItWorks
+                    count="02"
+                    heading="Save & Apply"
+                    desc="Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                    find place best."
+                    img = {step3}
+                    />
+                    </Col>
+                    <Col md={4} sm={4}>
+                    <HowItWorks
+                    count="03"
+                    heading="Search Jobs"
+                    desc="Post a job to tell us about your project. We'll quickly match you with the right freelancers
+                    find place best."
+                    img = {step2}
                     />
                     </Col>
                 </Row>
