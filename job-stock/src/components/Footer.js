@@ -7,6 +7,7 @@ import Styles from './Styles';
 function Footer() {
     return(
         <Styles>
+            hello
         </Styles>
     );
 }
