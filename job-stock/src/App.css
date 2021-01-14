@@ -11,3 +11,65 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
+/* Styling of TabStyle Top  */
+.inner-header-title,
+.inner-header-title.blank {
+	border-bottom: 4px solid #11b719;
+	overflow: visible
+}
+.inner-header-title {
+	padding: 7em 0;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	background-size: cover
+}
+
+.inner-header-title:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: block;
+	background: #242d3e;
+	opacity: .6
+}
+
+.inner-header-title.blank:before,
+.inner-header-title.blank:brfore,
+.inner-header-title.gray-bg:before {
+	opacity: 0
+}
+
+.inner-header-title>* {
+	position: relative
+}
+
+.inner-header-title.text-left {
+	text-align: left;
+	color: #35434e
+}
+
+.inner-header-title h1 {
+	font-weight: 600
+}
+
+.inner-header-title p {
+	color: #fff
+}
+
+.inner-header-title.blank {
+	padding: 10em 0;
+	text-align: center;
+	color: #fff;
+	background: #53bb13;
+	background: -moz-radial-gradient(center, ellipse cover, #53bb13 0, #11b719 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #53bb13 0, #11b719 100%);
+	background: radial-gradient(ellipse at center, #53bb13 0, #11b719 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53bb13', endColorstr='#11b719', GradientType=1);
+	background-size: cover
+}

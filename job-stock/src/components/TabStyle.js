@@ -7,12 +7,14 @@ import bannerImg from '../assets/img/banner-10.jpg';
 
 export const TabStyle = () => (
     <Styles>
-            <Container>
-                <Row>
-                    <Col>
-
-                    </Col>
-                </Row>
-            </Container>
+			<section class="inner-header-title" style={{backgroundImage: "url(" + bannerImg + ")"}}>
+				<Container>
+					<Row>
+                        <Col>
+                            <h1>Tab Style</h1>
+                        </Col>
+                    </Row>
+				</Container>
+			</section>
     </Styles>
 );
