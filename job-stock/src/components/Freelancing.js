@@ -6,7 +6,7 @@ import {HowItWorks} from './HowItWorks';
 import step1 from '../assets/img/step-1.png';
 import step2 from '../assets/img/step-2.png';
 import step3 from '../assets/img/step-3.png';
-
+import Footer from './Footer';
 
 export const Freelancing = () => (
     <Styles>
@@ -63,7 +63,8 @@ export const Freelancing = () => (
                     />
                     </Col>
                 </Row>
-            </Container>
+            </Container> <br/> <br/> <br/>
+            <Footer/>
         </section>
     </Styles>
 );
