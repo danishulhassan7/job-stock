@@ -20,7 +20,6 @@ import client1 from '..//assets/img/client-1.jpg';
 import client2 from '..//assets/img/client-2.jpg';
 import client3 from '..//assets/img/client-3.jpg';
 import can1 from '../assets/img/can-1.png';
-import can2 from '../assets/img/can-2.png';
 import can3 from '../assets/img/can-3.png';
 import can5 from '../assets/img/can-5.jpg';
 
@@ -376,6 +375,5 @@ export const Home = () => (
             </Row>
         </Container>
         </section> <br/> <br/> <br/>
-
     </Styles>
 );
