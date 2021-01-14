@@ -25,6 +25,7 @@ function TabStyle() {
                 <Row>
                     <Col md={6} sm={12}>
                         <Tabs
+                         style={{ backgroundColor: '#aab6bf', color: '#aab6bf', fontSize:'19px'}}
                             id="controlled-tab-example"
                             activeKey={key1}
                             onSelect={(k) => setKey1(k)}
@@ -45,6 +46,7 @@ function TabStyle() {
                     </Col>
                     <Col md={6} sm={12}>
                         <Tabs
+                         style={{ backgroundColor: '#aab6bf', color: '#aab6bf', fontSize:'19px' }}
                             id="controlled-tab-example"
                             activeKey={key}
                             onSelect={(k) => setKey(k)}
