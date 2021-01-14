@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Tabs, Tab } from 'react-bootstrap';
+import { Container, Row, Col, Tabs, Tab, Accordion, Card, Button} from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import Footer from './Footer';
@@ -24,24 +24,28 @@ function AccordionStyle() {
             <Container>
                 <Row>
                     <Col md={6} sm={12}>
-                        <Tabs
-                            id="controlled-tab-example"
-                            activeKey={key1}
-                            onSelect={(k) => setKey1(k)}
-                        >
-                            <Tab eventKey="Tab-1" title="Tab-1" className="mt-3">
-                                <h2>Tab 01</h2>
-                                <p>Tab-1 ipsum dolor sit, amet consectetur adipisicing elit. Provident illo, nostrum sit quasi magnam itaque tenetur laboriosam impedit est fuga facere quod earum aut explicabo vel quo, dolore voluptates laudantium eius? Alias aliquid dolorum, error autem fugiat voluptas non. A aspernatur ratione necessitatibus reiciendis facere?</p>
-                            </Tab>
-                            <Tab eventKey="Tab-2" title="Tab-2" className="mt-3">
-                                <h2>Tab 02</h2>
-                                <p>Tab-2 ipsum dolor sit, amet consectetur adipisicing elit. Provident illo, nostrum sit quasi magnam itaque tenetur laboriosam impedit est fuga facere quod earum aut explicabo vel quo, dolore voluptates laudantium eius? Alias aliquid dolorum, error autem fugiat voluptas non. A aspernatur ratione necessitatibus reiciendis facere?</p>
-                            </Tab>
-                            <Tab eventKey="Tab-3" title="Tab-3" className="mt-3">
-                                <h2>Tab 03</h2>
-                                <p>Tab-3 ipsum dolor sit, amet consectetur adipisicing elit. Provident illo, nostrum sit quasi magnam itaque tenetur laboriosam impedit est fuga facere quod earum aut explicabo vel quo, dolore voluptates laudantium eius? Alias aliquid dolorum, error autem fugiat voluptas non. A aspernatur ratione necessitatibus reiciendis facere?</p>
-                            </Tab>
-                        </Tabs>
+                        <Accordion defaultActiveKey="0">
+                            <Card>
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                                        Click me!
+      </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey="0">
+                                    <Card.Body>Hello! I'm the body</Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            <Card>
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                                        Click me!
+      </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey="1">
+                                    <Card.Body>Hello! I'm another body</Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                        </Accordion>
                     </Col>
                     <Col md={6} sm={12}>
                         <Tabs
@@ -64,8 +68,8 @@ function AccordionStyle() {
                         </Tabs>
                     </Col>
                 </Row>
-            </Container> <br/> <br/> <br/>
-            <Footer/>
+            </Container> <br /> <br /> <br />
+            <Footer />
         </Styles>
     );
 }
