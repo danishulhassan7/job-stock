@@ -22,8 +22,9 @@ import client3 from '..//assets/img/client-3.jpg';
 import can1 from '../assets/img/can-1.png';
 import can3 from '../assets/img/can-3.png';
 import can5 from '../assets/img/can-5.jpg';
-import Footer from './Footer';
 import { HireFreelancers } from './HireFreelancers';
+import { Testimonials } from './Testimonials';
+import Footer from './Footer';
 
 
 export const Home = () => (
@@ -211,49 +212,30 @@ export const Home = () => (
                 </Col>
             </Row>
             <Row>
-                {/* <div id="client-testimonial-slider" className="owl-carousel"> */}
                 <Col md={4} sm={6}>
-                    {/* <div className="client-testimonial">
-                        <div className="pic"><img src={client1} alt="" /></div>
-                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor et dolore magna aliqua.</p>
-                        <h3 className="client-testimonial-title">Lacky Mole</h3>
-                        <ul className="client-testimonial-rating">
-                            <li className="fa fa-star-o"></li>
-                            <li className="fa fa-star-o"></li>
-                            <li className="fa fa-star"></li>
-                        </ul>
-                    </div> */}
+                <Testimonials
+                    title="Lacky Mole"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor et dolore magna aliqua."
+                    img = {client1}
+                    />
                     </Col>
                     <Col md={4} sm={6}>
-                    <div className="client-testimonial">
-                        <div className="pic"><img src={client2} alt="" /></div>
-                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor et dolore magna aliqua.</p>
-
-                        <h3 className="client-testimonial-title">Karan Wessi</h3>
-                        <ul className="client-testimonial-rating">
-                            <li className="fa fa-star-o"></li>
-                            <li className="fa fa-star"></li>
-                            <li className="fa fa-star"></li>
-                        </ul>
-                    </div>
+                    <Testimonials
+                    title="Karan Wessi"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor et dolore magna aliqua."
+                    img = {client2}
+                    />
                     </Col>
                     <Col md={4} sm={6}>
-                    <div className="client-testimonial">
-                        <div className="pic"><img src={client3} alt=""/></div>
-                        <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor et dolore magna aliqua.</p>
-
-                        <h3 className="client-testimonial-title">Roul Pinchai</h3>
-                        <ul className="client-testimonial-rating">
-                            <li className="fa fa-star-o"></li>
-                            <li className="fa fa-star-o"></li>
-                            <li className="fa fa-star"></li>
-                        </ul>
-                    </div>
+                    <Testimonials
+                    title="Roul Pinchai"
+                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor et dolore magna aliqua."
+                    img = {client3}
+                    />
                     </Col>
-                {/* </div> */}
             </Row>
         </Container> <br/> <br/>
     </section>
