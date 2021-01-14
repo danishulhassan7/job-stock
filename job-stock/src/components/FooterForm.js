@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Form } from 'react-bootstrap';
+import { Form,  Button } from 'react-bootstrap';
 
 
 function FooterForm() {
@@ -16,6 +16,7 @@ function FooterForm() {
     <Form.Group controlId="exampleForm.ControlTextarea1">
         <Form.Control as="textarea" rows={3} placeholder="Message" />
     </Form.Group>
+    <Button variant="success">Login</Button>
 </Form>
     );
 }
