@@ -608,6 +608,18 @@ span.process-num {
 	border-radius: 50px;
 	font-weight: 500
 }
+
+.freelance-status-not {
+	position: absolute;
+	left: 32px;
+	top: 25px;
+	background: #ba2e0b;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 4px 18px;
+	border-radius: 50px;
+	font-weight: 500
+}
 .flc-rate,
 .sidebar-status {
 	position: absolute;

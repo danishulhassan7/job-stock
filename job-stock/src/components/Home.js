@@ -23,6 +23,7 @@ import can1 from '../assets/img/can-1.png';
 import can3 from '../assets/img/can-3.png';
 import can5 from '../assets/img/can-5.jpg';
 import Footer from './Footer';
+import { HireFreelancers } from './HireFreelancers';
 
 
 export const Home = () => (
@@ -212,7 +213,7 @@ export const Home = () => (
             <Row>
                 {/* <div id="client-testimonial-slider" className="owl-carousel"> */}
                 <Col md={4} sm={6}>
-                    <div className="client-testimonial">
+                    {/* <div className="client-testimonial">
                         <div className="pic"><img src={client1} alt="" /></div>
                         <p className="client-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor et dolore magna aliqua.</p>
@@ -222,7 +223,7 @@ export const Home = () => (
                             <li className="fa fa-star-o"></li>
                             <li className="fa fa-star"></li>
                         </ul>
-                    </div>
+                    </div> */}
                     </Col>
                     <Col md={4} sm={6}>
                     <div className="client-testimonial">
@@ -274,97 +275,55 @@ export const Home = () => (
             </Row>
             <Row>
                 <Col md={4} sm={6}>
-                    <div className="freelance-container style-2">
-                        <div className="freelance-box">
-                            <span className="freelance-status">Available</span>
-                            <h4 className="flc-rate">$17/hr</h4>
-
-                            <div className="freelance-inner-box">
-                                <div className="freelance-box-thumb"><img src={can1} height="104px"
-                                                                      className="img-responsive img-circle" alt=""/></div>
-                                <div className="freelance-box-detail">
-                                    <h4>Agustin L. Smith</h4>
-                                    <span className="location">Australia</span>
-                                </div>
-                                <div className="rattings"><i className="fa fa-star fill"></i><i className="fa fa-star fill"></i><i
-                                        className="fa fa-star fill"></i><i className="fa fa-star-half fill"></i><i
-                                        className="fa fa-star"></i></div>
-                            </div>
-                            <div className="freelance-box-extra">
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui.</p>
-                                <ul>
-                                    <li>Php</li>
-                                    <li>Android</li>
-                                    <li>Html</li>
-                                    <li className="more-skill bg-primary">+3</li>
-                                </ul>
-                            </div>
-                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-secondary">View Detail</a>
-                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-primary">View Detail</a>
-                        </div>
-                    </div>
+                    <HireFreelancers
+                    img = {can1}
+                    status = "Available"
+                    rate = "$17/hr"
+                    title = "Agustin L. Smith"
+                    country = "Australia"
+                    desc = "At vero eos et accusamus et iusto odio dignissimos ducimus qui."
+                    skill1 = "PHP"
+                    skill2 = "JS"
+                    skill3 = "Android"
+                    skill = "+3"
+                    btnText1 = "View Details" 
+                    btnText2 = "View Details"
+                    class = "freelance-status"
+                    />
                 </Col>
                 <Col md={4} sm={6}>
-                    <div className="freelance-container style-2">
-                        <div className="freelance-box">
-                            <span className="freelance-status bg-warning">At Work</span>
-                            <h4 className="flc-rate">$22/hr</h4>
-
-                            <div className="freelance-inner-box">
-                                <div className="freelance-box-thumb"><img src={can3} height="104px"
-                                                                      className="img-responsive img-circle" alt=""/></div>
-                                <div className="freelance-box-detail">
-                                    <h4>Delores R. Williams</h4>
-                                    <span className="location">United States</span>
-                                </div>
-                                <div className="rattings"><i className="fa fa-star fill"></i><i className="fa fa-star fill"></i><i
-                                        className="fa fa-star fill"></i><i className="fa fa-star-half fill"></i><i
-                                        className="fa fa-star"></i></div>
-                            </div>
-                            <div className="freelance-box-extra">
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui.</p>
-                                <ul>
-                                    <li>Php</li>
-                                    <li>Android</li>
-                                    <li>Html</li>
-                                    <li className="more-skill bg-primary">+3</li>
-                                </ul>
-                            </div>
-                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-secondary">View Detail</a><a
-                                href="freelancer-detail.html" className="btn btn-freelance-two bg-info">View Detail</a>
-                        </div>
-                    </div>
+                <HireFreelancers
+                    img = {can5}
+                    status = "At Work"
+                    rate = "$25/hr"
+                    title = "Daniel Disroyer"
+                    country = "Norway"
+                    desc = "At vero eos et accusamus et iusto odio dignissimos ducimus qui."
+                    skill1 = "PHP"
+                    skill2 = "JS"
+                    skill3 = "Android"
+                    skill = "+3"
+                    btnText1 = "View Details" 
+                    btnText2 = "View Details"
+                    class = "freelance-status-not"
+                    />
                 </Col>
                 <Col md={4} sm={6}>
-                    <div className="freelance-container style-2">
-                        <div className="freelance-box">
-                            <span className="freelance-status">Available</span>
-                            <h4 className="flc-rate">$19/hr</h4>
-
-                            <div className="freelance-inner-box">
-                                <div className="freelance-box-thumb"><img src={can5} height="104px"
-                                                                      className="img-responsive img-circle" alt=""/></div>
-                                <div className="freelance-box-detail">
-                                    <h4>Daniel Disroyer</h4>
-                                    <span className="location">Bangladesh</span>
-                                </div>
-                                <div className="rattings"><i className="fa fa-star fill"></i><i className="fa fa-star fill"></i><i
-                                        className="fa fa-star fill"></i><i className="fa fa-star-half fill"></i><i
-                                        className="fa fa-star"></i></div>
-                            </div>
-                            <div className="freelance-box-extra">
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui.</p>
-                                <ul>
-                                    <li>Php</li>
-                                    <li>Android</li>
-                                    <li>Html</li>
-                                    <li className="more-skill bg-primary">+3</li>
-                                </ul>
-                            </div>
-                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-secondary">View Detail</a>
-                            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-info">View Detail</a>
-                        </div>
-                    </div>
+                <HireFreelancers
+                    img = {can3}
+                    status = "Available"
+                    rate = "$425/hr"
+                    title = "Alexandera Mark"
+                    country = "United States"
+                    desc = "At vero eos et accusamus et iusto odio dignissimos ducimus qui."
+                    skill1 = "PHP"
+                    skill2 = "JS"
+                    skill3 = "Android"
+                    skill = "+3"
+                    btnText1 = "View Details" 
+                    btnText2 = "View Details"
+                    class = "freelance-status"
+                    />
                 </Col>
             </Row>
             <Row>
