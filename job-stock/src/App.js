@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Freelancing } from './components/Freelancing';
 import { Home } from './components/Home';
-import { TabStyle } from './components/TabStyle';
+import TabStyle  from './components/TabStyle';
 
 function App() {
   return (
