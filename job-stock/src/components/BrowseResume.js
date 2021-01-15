@@ -5,7 +5,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import can1 from '../assets/img/can-1.png';
-import {BrowsResComp} from './BrowsResComp';
+import can2 from '../assets/img/can-2.png';
+import can3 from '../assets/img/can-3.png';
+import can4 from '../assets/img/can-4.png';
+import can5 from '../assets/img/can-5.png';
+import { BrowsResComp } from './BrowsResComp';
 import Footer from './Footer';
 
 function BrowseResume() {
@@ -24,67 +28,119 @@ function BrowseResume() {
 
             {/* Browse Resume Section  */}
             <Container>
-            <section>
-                <BrowsResComp
-                    img = {can1}
-                    name = "Charles Hopman"
-                    title = "App Developer"
-                    address = " Street #210, Make New London"
-                    rate = "$16/Hour"
-                    sk1 = "HTML"
-                    sk2 = "CSS"
-                    sk3 = "JS"
-                    sk4 = "Kotlin"
-                    sk5 = "MySql"
-                    exp = "Exp. 3 Years"
-                />
-                {/* <a href="resume-detail.html" className="item-click" style={{textDecoration:'none'}}>
-                    <article>
-                        <div className="brows-resume">
-                            <Row className="row no-mrg">
-                                <Col md={2} sm={2}>
-                                    <div className="brows-resume-pic">
-                                        <img src={can1} className="img-responsive" alt="" />
-                                    </div>
-                                </Col>
-                                <Col md={4} sm={4}>
-                                    <div className="brows-resume-name">
-                                        <h4>Charles Hopman</h4>
-                                        <span className="brows-resume-designation">App Developer</span>
-                                    </div>
-                                </Col>
-                                <Col md={4} sm={4}>
-                                    <div className="brows-resume-location">
-                                        <p><i className="fa fa-map-marker"></i> Street #210, Make New London</p>
-                                    </div>
-                                </Col>
-                                <Col md={2} sm={2}>
-                                    <div className="browse-resume-rate">
-                                        <span><i className="fa fa-money"></i>$15/hour</span>
-                                    </div>
-                                </Col>
-                            </Row>
-                            <div className="row extra-mrg row-skill">
-                                <div className="browse-resume-skills">
-                                    <Row>
-                                    <Col md={7} sm={8}>
-                                        <div className="br-resume ml-3">
-                                            <span>css</span><span>html</span><span>photoshop</span><span>wordpress</span>
-                                            <span>css</span>
-                                        </div>
-                                    </Col>
-                                    <Col md={5} sm={4}>
-                                        <div className="browse-resume-exp" style={{textAlign:"end", float:"right", marginLeft:"560px"}}>
-                                            <span className="resume-exp">Exp. 3 Year</span>
-                                        </div>
-                                    </Col>
-                                    </Row>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </a> */}
-            </section>
+                <section>
+                    <BrowsResComp
+                        img={can1}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+
+                    <BrowsResComp
+                        img={can2}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+
+                    <BrowsResComp
+                        img={can3}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+
+                    <BrowsResComp
+                        img={can4}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+
+                    <BrowsResComp
+                        img={can5}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+
+                    <BrowsResComp
+                        img={can2}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+
+                    <BrowsResComp
+                        img={can4}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+
+                    <BrowsResComp
+                        img={can3}
+                        name="Charles Hopman"
+                        title="App Developer"
+                        address=" Street #210, Make New London"
+                        rate="$16/Hour"
+                        sk1="HTML"
+                        sk2="CSS"
+                        sk3="JS"
+                        sk4="Kotlin"
+                        sk5="MySql"
+                        exp="Exp. 3 Years"
+                    />
+                </section>
             </Container>
             <br /> <br /> <br />
             <Footer />
