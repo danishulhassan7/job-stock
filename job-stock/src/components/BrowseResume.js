@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import can1 from '../assets/img/can-1.png';
+import {BrowsResComp} from './BrowsResComp';
 import Footer from './Footer';
 
 function BrowseResume() {
@@ -24,7 +25,20 @@ function BrowseResume() {
             {/* Browse Resume Section  */}
             <Container>
             <section>
-                <a href="resume-detail.html" className="item-click" style={{textDecoration:'none'}}>
+                <BrowsResComp
+                    img = {can1}
+                    name = "Charles Hopman"
+                    title = "App Developer"
+                    address = " Street #210, Make New London"
+                    rate = "$16/Hour"
+                    sk1 = "HTML"
+                    sk2 = "CSS"
+                    sk3 = "JS"
+                    sk4 = "Kotlin"
+                    sk5 = "MySql"
+                    exp = "Exp. 3 Years"
+                />
+                {/* <a href="resume-detail.html" className="item-click" style={{textDecoration:'none'}}>
                     <article>
                         <div className="brows-resume">
                             <Row className="row no-mrg">
@@ -69,7 +83,7 @@ function BrowseResume() {
                             </div>
                         </div>
                     </article>
-                </a>
+                </a> */}
             </section>
             </Container>
             <br /> <br /> <br />
