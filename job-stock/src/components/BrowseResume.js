@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import Footer from './Footer';

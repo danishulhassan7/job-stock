@@ -5,6 +5,7 @@ import { Freelancing } from './components/Freelancing';
 import { Home } from './components/Home';
 import TabStyle  from './components/TabStyle';
 import AccordionStyle  from './components/AccordionStyle';
+import BrowseResume from './components/BrowseResume';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
           <Route path="/freelancing" component={ Freelancing } />
           <Route path="/tabStyle" component={ TabStyle } />
           <Route path="/footer" component={ Footer } />
-          <Route path="/accordionStyle" component={ AccordionStyle } />          
+          <Route path="/accordionStyle" component={ AccordionStyle } /> 
+          <Route path="/browseResume" component={ BrowseResume } />          
         </Switch>
     </Router>
   </React.Fragment>
