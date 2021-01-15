@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import Footer from './Footer';
@@ -13,7 +13,7 @@ function BrowseResume() {
                 <Container>
                     <Row>
                         <Col md={12}>
-                            <h1 style={{ fontSize: '5em', fontStyle: 'bold' }}>Accordion Style</h1>
+                            <h1 style={{ fontSize: '5em', fontStyle: 'bold' }}>Browse Resume</h1>
                         </Col>
                     </Row>
                 </Container>
@@ -21,72 +21,10 @@ function BrowseResume() {
             <Container>
                 <Row>
                     <Col md={6} sm={12}>
-                        <Accordion defaultActiveKey="0">
-                            <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{ backgroundColor: '#03a504', color: '#ffffff' }}>
-                                        <h4>Section 01</h4>
-                                    </Accordion.Toggle>
-                                </Card.Header>
-                                <Accordion.Collapse eventKey="0">
-                                    <Card.Body>Hello! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, voluptatum. Explicabo accusamus et, magni tempore, magnam fugit sapiente illo repudiandae reiciendis voluptates soluta aliquid perferendis odit ut praesentium nihil blanditiis!</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                        <h4>Section 02</h4>
-                                    </Accordion.Toggle>
-                                </Card.Header>
-                                <Accordion.Collapse eventKey="1">
-                                    <Card.Body>By, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vel doloribus? Non ab omnis laboriosam aliquam quibusdam, eveniet excepturi laudantium repellat unde beatae error nam!</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                                        <h4>Section 03</h4>
-                                    </Accordion.Toggle>
-                                </Card.Header>
-                                <Accordion.Collapse eventKey="2">
-                                    <Card.Body>Out, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vel doloribus? Non ab omnis laboriosam aliquam quibusdam, eveniet excepturi laudantium repellat unde beatae error nam!</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                        </Accordion>
+                        <h2>Hello 01 </h2>
                     </Col>
                     <Col md={6} sm={12}>
-                        <Accordion defaultActiveKey="0">
-                            <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{ backgroundColor: '#03a504', color: '#ffffff' }}>
-                                        <h4>Section A</h4>
-                                    </Accordion.Toggle>
-                                </Card.Header>
-                                <Accordion.Collapse eventKey="0">
-                                    <Card.Body>Hello! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, voluptatum. Explicabo accusamus et, magni tempore, magnam fugit sapiente illo repudiandae reiciendis voluptates soluta aliquid perferendis odit ut praesentium nihil blanditiis!</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                        <h4>Section B</h4>
-                                    </Accordion.Toggle>
-                                </Card.Header>
-                                <Accordion.Collapse eventKey="1">
-                                    <Card.Body>By, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vel doloribus? Non ab omnis laboriosam aliquam quibusdam, eveniet excepturi laudantium repellat unde beatae error nam!</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Card.Header>
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                                        <h4>Section C</h4>
-                                    </Accordion.Toggle>
-                                </Card.Header>
-                                <Accordion.Collapse eventKey="2">
-                                    <Card.Body>Out, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vel doloribus? Non ab omnis laboriosam aliquam quibusdam, eveniet excepturi laudantium repellat unde beatae error nam!</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                        </Accordion>
+                    <h2>Hello 02</h2>
                     </Col>
                 </Row>
             </Container> <br /> <br /> <br />
