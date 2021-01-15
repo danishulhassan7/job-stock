@@ -10,6 +10,7 @@ import can3 from '../assets/img/can-3.png';
 import can4 from '../assets/img/can-4.png';
 import can5 from '../assets/img/can-5.png';
 import { BrowsResComp } from './BrowsResComp';
+import { BrowsResForm } from './BrowsResForm';
 import Footer from './Footer';
 
 function BrowseResume() {
@@ -25,7 +26,10 @@ function BrowseResume() {
                 </Container>
             </section> <br /> <br /> <br />
 
-
+            <Container>
+                <BrowsResForm/>
+            </Container>
+            <br />
             {/* Browse Resume Section  */}
             <Container>
                 <section>
