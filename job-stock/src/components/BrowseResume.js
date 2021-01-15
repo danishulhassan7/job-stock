@@ -26,8 +26,10 @@ function BrowseResume() {
                 </Container>
             </section> <br /> <br /> <br />
 
+            {/* Adding a BrowsResComp Component  */}
+
             <Container>
-                <BrowsResForm/>
+                <BrowsResForm />
             </Container>
             <br />
             {/* Browse Resume Section  */}

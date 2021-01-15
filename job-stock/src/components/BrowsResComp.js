@@ -42,7 +42,7 @@ export const BrowsResComp = (props) => (
                     </Col>
                     <Col md={5} sm={4}>
                         <div className="browse-resume-exp" style={{textAlign:"end", float:"right", marginLeft:"560px"}}>
-                            <span className="resume-exp">{props.exp}</span>
+                            <span style={{display:"inline-block", padding:"6px 0px"}} className="resume-exp">{props.exp}</span>
                         </div>
                     </Col>
                     </Row>
