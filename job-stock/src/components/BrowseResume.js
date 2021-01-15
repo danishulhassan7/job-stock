@@ -11,6 +11,7 @@ import can4 from '../assets/img/can-4.png';
 import can5 from '../assets/img/can-5.png';
 import { BrowsResComp } from './BrowsResComp';
 import { BrowsResForm } from './BrowsResForm';
+import {PaginationComp} from './PaginationComp';
 import Footer from './Footer';
 
 function BrowseResume() {
@@ -148,7 +149,9 @@ function BrowseResume() {
                     />
                 </section>
             </Container>
-            <br /> <br /> <br />
+            <br /> 
+            <PaginationComp/>
+            <br /> <br />
             <Footer />
         </Styles>
     );
