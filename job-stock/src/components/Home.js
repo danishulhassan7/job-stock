@@ -36,7 +36,7 @@ export const Home = () => (
             <Container>
                 <Row>
                     <Col md={12} className="App-header App">
-                        <p className="text-size"> 50,000+ Job Search</p>
+                        <p className="text-size"> 50,000+ Job Searches</p>
                         <div>
                             <SearchForm />
                         </div>

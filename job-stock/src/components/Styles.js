@@ -9,12 +9,12 @@ const Styles = styled.div`
         height: 100vh;
         position: relative;
         // z-index: -2;
-        color: #fff;
+		color: #fff;
     }
 
     .overlay {
-        background-color: #ceceef;
-        opacity: 0.2;
+  		background-color:black;
+        opacity: 0.6;
         position: absolute;
         top: 0;
         left: 0;
@@ -23,10 +23,10 @@ const Styles = styled.div`
     }
 
     .text-size {
-        margin-top: 110px;
-        color: black;
-        font-size: 3em;
-        font-weight: bold;
+        margin-top: 40px;
+        color: whitesmoke;
+        font-size: 3.5em;
+		font-weight: bold;
         // margin: 90px 10px 0px 10px;
     }
 
