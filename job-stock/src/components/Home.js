@@ -22,6 +22,7 @@ import client3 from '..//assets/img/client-3.jpg';
 import can1 from '../assets/img/can-1.png';
 import can3 from '../assets/img/can-3.png';
 import can5 from '../assets/img/can-5.jpg';
+import appImg from '../assets/img/iphone.png';
 import { HireFreelancers } from './HireFreelancers';
 import { Testimonials } from './Testimonials';
 import Footer from './Footer';
