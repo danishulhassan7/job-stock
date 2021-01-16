@@ -713,6 +713,157 @@ span.process-num {
 	color:white;
 	font-weight:bold;
 }
+
+
+// Download App Styling CSS
+
+.download-app {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding-bottom: 0;
+	overflow: hidden
+}
+
+.download-app:before {
+	background: #11b719;
+	position: absolute;
+	opacity: .9;
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0
+}
+
+.download-app .heading {
+	margin-bottom: .5em
+}
+.download-app img {
+	margin: 0 auto
+}
+.app-content {
+	text-align: left;
+	margin-bottom: 6em;
+	color: #fff
+}
+
+.app-content h2 {
+	font-weight: 500;
+	font-family: Montserrat, sans-serif
+}
+
+.app-content h4,
+.app-content p {
+	font-weight: 400;
+	font-family: Montserrat, sans-serif
+}
+
+.app-content h4 {
+	font-size: 22px;
+	text-transform: uppercase
+}
+
+.app-content p {
+	font-size: 16px;
+	color: #fff;
+	line-height: 1.8;
+	margin-top: 20px
+}
+
+.app-content a.btn.call-btn i {
+	margin-right: 15px;
+	font-size: 27px
+}
+a.btn.call-btn,
+p {
+	text-transform: capitalize
+}
+a.btn.call-btn {
+	background: #fff;
+	border-radius: 4px;
+	padding: .8em 2em;
+	color: #11b719
+}
+
+.app-content a.btn.call-btn i {
+	margin-right: 15px;
+	font-size: 27px
+}
+
+.app-content a.btn.call-btn {
+	border-radius: 4px;
+	padding: .6em 1.4em;
+	margin-right: 20px;
+	text-transform: uppercase;
+	background: 0 0;
+	border: 1px dashed #fff;
+	transition: all ease-in-out .4s;
+	color: #fff;
+	margin-bottom: 10px;
+	font-family: Montserrat, sans-serif
+}
+
+.app-content a.btn.call-btn:hover {
+	background: #fff;
+	color: #11b719
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media Quesries 
+@media only screen and (min-width :768px) {
+	.download-app img {
+		position: absolute;
+		max-width: 80%;
+		left: 10%
+	}
+	.app-content {
+		margin-bottom: 8em;
+		padding-top: 3em
+	}
+}
+
+@media screen and (max-width:992px) {
+	.app-content {
+		margin-bottom: 2em;
+		padding-top: 3em
+	}
+	.app-content a.btn.call-btn {
+		line-height: 2
+	}
+	.app-content h2 {
+		font-size: 32px;
+		margin-bottom: 10px
+	}
+	.app-content h4 {
+		font-size: 20px
+	}
+}
+
 `;
 
 export default Styles;
