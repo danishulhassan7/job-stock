@@ -10,8 +10,8 @@ export const SearchForm = (props) => (
             <Container>
                 <Form
                  style={{
-                     padding:"30",
-                     backgroundColor:"#e6e6e6"
+                     padding:"30px",
+                     backgroundColor:"rgba(138, 131, 131, 0.465)"
                  }}>
                     <Form.Row className="align-items-center">
                         <Col md={3}>
@@ -33,7 +33,7 @@ export const SearchForm = (props) => (
                                 size="lg"
                                 className="mb-2"
                                 id="inlineFormInput"
-                                placeholder="Location: City, State, Zip"
+                                placeholder="Location: Zip, State"
                             />
                         </Col>
                         <Col md={3}>
