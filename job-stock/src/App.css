@@ -11,7 +11,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+body {
+	background-color: #f0f5f8;
+}
 .Pagination-css {
 	/* min-height: 100vh; */
 	display: flex;

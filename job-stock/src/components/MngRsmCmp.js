@@ -15,7 +15,7 @@ export const MngRsmCmp = (props) => (
                     </Col>
                     <Col md={3} sm={3}>
                         <div className="mng-resume-name">
-                            <h4>{props.name}<span className="cand-designation">({props.title})</span></h4>
+                            <h4>{props.name}<span className="cand-designation">{props.title}</span></h4>
                             <span className="cand-status">{props.active}</span>
                         </div>
                     </Col>
