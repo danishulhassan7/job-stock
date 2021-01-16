@@ -1,9 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Styles from './Styles';
+import { Button } from 'react-bootstrap';
+
 
 
 export const HireFreelancers = (props) => (
-
+<Styles>
     <div className="freelance-container style-2">
         <div className="freelance-box">
             <span className={props.class}>{props.status}</span>
@@ -28,9 +31,17 @@ export const HireFreelancers = (props) => (
                     <li>{props.skill3}</li>
                     <li className="more-skill bg-primary">{props.skill}</li>
                 </ul>
-            </div>
-            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-secondary">{props.btnText1}</a>
-            <a href="freelancer-detail.html" className="btn btn-freelance-two bg-primary">{props.btnText2}</a>
+            </div> <hr/>
+            <Button className="detailBtn" variant="" 
+            style={{
+                backgroundColor:"",
+                 display:"inline-block",
+                 width:"100%",
+                 padding:"10px 20px",
+                }}>
+                {props.btnText1}</Button>
+    
         </div>
     </div>
+    </Styles>
 );

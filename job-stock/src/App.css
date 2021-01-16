@@ -202,11 +202,9 @@
 	border-radius: 2px;
 	color: #35434e
 }
-
-
-
-
-
+.detailBtn:hover {
+	background-color: #03a504;
+}
 
 
 

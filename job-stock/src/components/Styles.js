@@ -707,6 +707,12 @@ span.process-num {
 	color: #fff;
 	padding: 9px 17px
 }
+
+.detailBtn:hover {
+	background-color: #03a504;
+	color:white;
+	font-weight:bold;
+}
 `;
 
 export default Styles;
