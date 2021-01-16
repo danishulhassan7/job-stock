@@ -4,24 +4,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
-import can1 from '../assets/img/can-1.png';
-import can2 from '../assets/img/can-2.png';
-import can3 from '../assets/img/can-3.png';
-import can4 from '../assets/img/can-4.png';
-import can5 from '../assets/img/can-5.png';
+import client1 from '../assets/img/client-1.jpg';
+import client2 from '../assets/img/client-2.jpg';
+import client3 from '../assets/img/client-3.jpg';
+import client4 from '../assets/img/client-4.jpg';
+import client5 from '../assets/img/client-5.jpg';
 import { BrowsResComp } from './BrowsResComp';
 import { BrowsResForm } from './BrowsResForm';
-import {PaginationComp} from './PaginationComp';
+import { PaginationComp } from './PaginationComp';
 import Footer from './Footer';
 
-function BrowseResume() {
+function ManageResume() {
     return (
         <Styles>
             <section class="inner-header-title" style={{ backgroundImage: "url(" + bannerImg + ")", height: '360px' }}>
                 <Container>
                     <Row>
                         <Col md={12}>
-                            <h1 style={{ fontSize: '5em', fontStyle: 'bold' }}>Browse Resume</h1>
+                            <h1 style={{ fontSize: '5em', fontStyle: 'bold' }}>Manage Resume</h1>
                         </Col>
                     </Row>
                 </Container>
@@ -35,126 +35,47 @@ function BrowseResume() {
             <br />
             {/* Browse Resume Section  */}
             <Container>
-                <section>
-                    <BrowsResComp
-                        img={can1}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-
-                    <BrowsResComp
-                        img={can2}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-
-                    <BrowsResComp
-                        img={can3}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-
-                    <BrowsResComp
-                        img={can4}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-
-                    <BrowsResComp
-                        img={can5}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-
-                    <BrowsResComp
-                        img={can2}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-
-                    <BrowsResComp
-                        img={can4}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-
-                    <BrowsResComp
-                        img={can3}
-                        name="Charles Hopman"
-                        title="App Developer"
-                        address=" Street #210, Make New London"
-                        rate="$16/Hour"
-                        sk1="HTML"
-                        sk2="CSS"
-                        sk3="JS"
-                        sk4="Kotlin"
-                        sk5="MySql"
-                        exp="Exp. 3 Years"
-                    />
-                </section>
+                <article>
+                    <div className="mng-resume">
+                        <Row>
+                                <Col md={2} sm={2}>
+                                    <div className="mng-resume-pic">
+                                        <img src={client1} className="img-responsive" alt="" />
+                                    </div>
+                                </Col>
+                                <Col md={3} sm={3}>
+                                    <div className="mng-resume-name">
+                                        <h4>Alexander Weir <span className="cand-designation">(Web Developer)</span></h4>
+                                        <span className="cand-status">10 Hour Ago</span>
+                                    </div>
+                                </Col>
+                                <Col md={2} sm={2}>
+                                    <div className="per-hour-rate">
+                                        <p><i className="fa fa-money"></i> $17/Hour</p>
+                                    </div>
+                                </Col>
+                                <Col md={4} sm={4}>
+                                    <div className="mng-employee-skill">
+                                        <span>html</span><span>css</span><span>java</span>
+                                        <span>bootstrap</span>
+                                    </div>
+                                </Col>
+                                <Col md={1} sm={1}>
+                                    <div className="mng-resume-action">
+                                        <a href="#" data-toggle="tooltip" title="Edit"><i className="fa fa-edit"></i></a>
+                                        <a href="#" data-toggle="tooltip" title="Delete"><i className="fa fa-trash-o"></i></a>
+                                    </div>
+                                </Col>
+                        </Row>
+                    </div>
+                </article>
             </Container>
-            <br /> 
-            <PaginationComp/>
+            <br />
+            <PaginationComp />
             <br /> <br />
             <Footer />
         </Styles>
     );
 }
 
-export default BrowseResume;
+export default ManageResume;

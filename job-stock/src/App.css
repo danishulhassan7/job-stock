@@ -206,6 +206,122 @@
 	background-color: #03a504;
 }
 
+/* Manage Resume CSS  
+.
+.
+.
+.*/
+.mng-company,
+.mng-resume {
+	background: #fff;
+	overflow: hidden
+}
+.mng-company .mng-company-location i,
+.mng-resume h4 {
+	font-size: 20px
+}
+.mng-resume {
+	padding: 15px;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	border-left: 3px solid #fff;
+	transition: all ease-in-out .4s;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .01);
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .01);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .01)
+}
+.mng-resume:focus,
+.mng-resume:hover {
+	border-color: #11b719;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .05);
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .05)
+}
+
+.mng-employee-skill,
+.mng-resume-action,
+.mng-resume-name,
+.per-hour-rate {
+	margin-top: 1.4em
+}
+
+.mng-resume .mng-resume-pic {
+	display: table;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 1px
+}
+
+.mng-resume .mng-resume-pic img {
+	width: 105px;
+	height: 105px;
+	border-radius: 50%
+}
+
+.mng-resume h4 {
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 5px;
+	font-weight: 400;
+	color: #35434E;
+	margin-top: 0
+}
+
+.mng-resume h4 span.cand-designation {
+	font-family: Montserrat, sans-serif;
+	font-size: 15px;
+	color: #11b719
+}
+.mng-resume .mng-resume-location i {
+	font-size: 20px
+}
+
+.mng-resume .mng-resume-action i {
+	font-size: 20px;
+	padding: 0 5px
+}
+
+.mng-resume .mng-resume-action i.fa-edit {
+	color: #11b719
+}
+
+.mng-resume .mng-resume-action i.fa-trash-o {
+	color: #ff9800
+}
+.mng-employee-skill,
+.mng-resume-action,
+.mng-resume-name,
+.per-hour-rate {
+	margin-top: 1.4em
+}
+.per-hour-rate p {
+	font-size: 16px;
+	font-family: Montserrat, sans-serif
+}
+
+.per-hour-rate p i {
+	margin-right: 7px
+}
+.mng-employee-skill span {
+	padding: 1.5px 8px;
+	background: rgba(137, 153, 167, .12);
+	text-transform: uppercase;
+	margin-right: 7px;
+	margin-bottom: 5px;
+	border-radius: 2px;
+	color: #35434e;
+	font-size: 13px;
+	display: inline-block
+}
+
+
+/* Manage Resume CSS Ends Here
+.
+.
+.
+.*/
 
 
 
@@ -299,6 +415,22 @@
 	.browse-resume-exp, .resume-exp {
 		text-align: center;
 		margin-right: 60px;
+	}
+	.manage-resume-box,
+	.mng-company,
+	.mng-resume {
+		text-align: center
+	}
+	.brows-company .brows-company-pic,
+	.manage-resume-picbox,
+	.mng-company .mng-company-pic,
+	.mng-resume .mng-resume-pic {
+		display: table;
+		margin: 20px auto
+	}
+	.mng-resume {
+		border-left: none;
+		border-top: 3px solid #fff
 	}
 }
 
