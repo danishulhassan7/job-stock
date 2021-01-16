@@ -23,7 +23,7 @@ const Styles = styled.div`
     }
 
     .text-size {
-        margin-top: 230px;
+        margin-top: 110px;
         color: black;
         font-size: 3em;
         font-weight: bold;

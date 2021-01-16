@@ -6,6 +6,10 @@ import {HowItWorks} from './HowItWorks';
 import step1 from '../assets/img/step-1.png';
 import step2 from '../assets/img/step-2.png';
 import step3 from '../assets/img/step-3.png';
+import can1 from '../assets/img/can-1.png';
+import can3 from '../assets/img/can-3.png';
+import can5 from '../assets/img/can-5.jpg';
+import { HireFreelancers } from './HireFreelancers';
 import Footer from './Footer';
 
 export const Freelancing = () => (
@@ -16,7 +20,9 @@ export const Freelancing = () => (
                 <Row>
                     <Col md={6}>
                         <p className="text-size"> Talent? <br /> Meet Opportunity. </p>
-                        <p className="text-muted" style={{ fontStyle: "italic" }}>Maxime voluptatum sint consequatur explicabo consequuntur vero delectus autem exercitationem id quos rem totam voluptatem asperiores aut, dolores optio esse sunt expedita eveniet quas quasi necessitatibus! Aperiam minus eius minima eveniet, quasi assumenda non aliquam perferendis adipisci dolores saepe enim quibusdam eligendi, maiores perspiciatis sunt fugiat! Aliquid dolorem aliquam dolor aspernatur exercitationem excepturi tempore provident pariatur accusantium, at quo ab, enim placeat!</p>
+                        <p className="text-muted" style={{ fontStyle: "italic" }}>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam commodi, soluta corrupti fugit aliquid nemo.
+                        </p>
                     </Col>
                 </Row>
             </Container>
@@ -64,6 +70,81 @@ export const Freelancing = () => (
                     </Col>
                 </Row>
             </Container> <br/> <br/> <br/>
+
+                {/* // Hire Freelancers  */}
+
+
+
+    <section className="pricing mt-5">
+        <Container>
+            <Row>
+                <div className="col-md-12">
+                    <div className="main-heading">
+                        <p>Hire Experts</p>
+                        <h2>Hire Experts <span>Team</span></h2>
+                    </div>
+                </div>
+            </Row>
+            <Row>
+                <Col md={4} sm={6}>
+                    <HireFreelancers
+                    img = {can1}
+                    status = "Available"
+                    rate = "$17/hr"
+                    title = "Agustin L. Smith"
+                    country = "Australia"
+                    desc = "At vero eos et accusamus et iusto odio dignissimos ducimus qui."
+                    skill1 = "PHP"
+                    skill2 = "JS"
+                    skill3 = "Android"
+                    skill = "+3"
+                    btnText1 = "View Details" 
+                    btnText2 = "View Details"
+                    class = "freelance-status"
+                    />
+                </Col>
+                <Col md={4} sm={6}>
+                <HireFreelancers
+                    img = {can5}
+                    status = "At Work"
+                    rate = "$25/hr"
+                    title = "Daniel Disroyer"
+                    country = "Norway"
+                    desc = "At vero eos et accusamus et iusto odio dignissimos ducimus qui."
+                    skill1 = "PHP"
+                    skill2 = "JS"
+                    skill3 = "Android"
+                    skill = "+3"
+                    btnText1 = "View Details" 
+                    btnText2 = "View Details"
+                    class = "freelance-status-not"
+                    />
+                </Col>
+                <Col md={4} sm={6}>
+                <HireFreelancers
+                    img = {can3}
+                    status = "Available"
+                    rate = "$425/hr"
+                    title = "Alexandera Mark"
+                    country = "United States"
+                    desc = "At vero eos et accusamus et iusto odio dignissimos ducimus qui."
+                    skill1 = "PHP"
+                    skill2 = "JS"
+                    skill3 = "Android"
+                    skill = "+3"
+                    btnText1 = "View Details" 
+                    btnText2 = "View Details"
+                    class = "freelance-status"
+                    />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12} sm={12}>
+                    <div className="text-center"><a href="freelancers-2.html" style={{backgroundColor:'#03a504', display:'inline-block', padding:'7px 30px', fontSize:'20px', color:'white'}}>Load More</a></div>
+                </Col>
+            </Row>
+        </Container>
+        </section> <br/> <br/> <br/>
             <Footer/>
         </section>
     </Styles>
