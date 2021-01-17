@@ -78,6 +78,49 @@ function DetailResume() {
                 </Container>
             </section>
 
+            <section>
+                <Container>
+                <Row class="row row-bottom mrg-0">
+						<h2 class="detail-title">About Resume</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</Row>
+					
+					<Row class="row row-bottom mrg-0">
+						<h2 class="detail-title">Education</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<ul class="detail-list">
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur.</li>
+						</ul>
+					</Row>
+					<Row class="row row-bottom mrg-0">
+						<h2 class="detail-title">Work Experience</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<ul class="detail-list">
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur.</li>
+						</ul>
+					</Row>
+                </Container>
+            </section>
+
 
             <br /> <br />
             <Footer />

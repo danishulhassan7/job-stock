@@ -1107,6 +1107,69 @@ ul.detail-footer-social li a i:hover {
 .detail-pannel-footer-btn a.footer-btn.blu-btn {
 	background: #03a9f4
 }
+.full-detail-description p {
+	margin-bottom: 20px;
+	line-height: 1.9;
+	font-size: 15px;
+	padding: 0 20px
+}
+.full-detail .input-group {
+	margin-bottom: 10px;
+	width: 100%
+}
+
+section.full-detail {
+	padding: 0 0 3em
+}
+
+section.full-detail .form-control::-moz-placeholder {
+	color: #6a7884;
+	opacity: 1
+}
+
+section.full-detail .form-control:-ms-input-placeholder {
+	color: #6a7884
+}
+
+section.full-detail .form-control::-webkit-input-placeholder {
+	color: #6a7884
+}
+
+.full-detail .input-group-addon {
+	color: #fff;
+	background: #11b719;
+	width: 45px;
+	border-radius: 0;
+	border-color: #13c313;
+	font-size: 18px
+}
+h2.detail-title {
+	font-size: 18px;
+	background: #f5f6f7;
+	padding: 8px 20px;
+	margin-bottom: 16px;
+	line-height: 1.6;
+	border-radius: 2px;
+	color: #35434e;
+	border-left: 3px solid #11b719
+}
+ul.detail-list li {
+	padding: 0;
+	margin-bottom: 10px;
+	line-height: 1.9;
+	font-size: 17px;
+	color: #707c88;
+	list-style: none
+}
+
+ul.detail-list li:before {
+	content: "\f101";
+	position: relative;
+	font-size: 17px;
+	color: #11b719;
+	left: -12px;
+	font-family: fontawesome
+}
 
 
 
