@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faMoneyCheckAlt, faEdit, faTrash} from '@fortawesome/free-solid-svg-icons';
 
 export const MngRsmCmp = (props) => (
     <Container>
@@ -21,19 +22,23 @@ export const MngRsmCmp = (props) => (
                     </Col>
                     <Col md={2} sm={2}>
                         <div className="per-hour-rate">
-                            <p><i className="fa fa-money"></i> {props.rate}</p>
+                            <p><i className="fa fa-money"><FontAwesomeIcon icon={faMoneyCheckAlt} style={{color:"#03a504"}} /></i> {props.rate}</p>
                         </div>
                     </Col>
-                    <Col md={4} sm={4}>
+                    <Col md={3} sm={4}>
                         <div className="mng-employee-skill">
                             <span>{props.sk1}</span><span>{props.sk2}</span><span>{props.sk3}</span>
                             <span>{props.sk4}</span>
                         </div>
                     </Col>
-                    <Col md={1} sm={1}>
+                    <Col md={2} sm={1}>
                         <div className="mng-resume-action">
-                            <a href="#" data-toggle="tooltip" title="Edit"><i className="fa fa-edit"></i></a>
-                            <a href="#" data-toggle="tooltip" title="Delete"><i className="fa fa-trash-o"></i></a>
+                            <a href="#" data-toggle="tooltip" title="Edit"><i className="fa fa-edit">
+                            <FontAwesomeIcon icon={faEdit} />
+                                </i></a>
+                            <a href="#" data-toggle="tooltip" title="Delete"><i className="fa fa-trash-o">
+                            <FontAwesomeIcon icon={faTrash} />
+                                </i></a>
                         </div>
                     </Col>
                 </Row>

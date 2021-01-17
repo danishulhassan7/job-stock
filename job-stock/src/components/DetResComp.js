@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEdit } from '@fortawesome/free-solid-svg-icons';
+import { faEdit, faMoneyCheckAlt, faMapMarker, faEnvelope,faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export const DetResComp = (props) => (
     <section className="detail-desc">
@@ -10,7 +10,8 @@ export const DetResComp = (props) => (
             <Row className="row mrg-0">
                 <div className="detail-pic">
                     <img src={props.img} className="img" alt="client" />
-                    <a href="#" className="detail-edit" title="edit" ><FontAwesomeIcon icon={faEdit}/></a>
+                    <a href="#" className="detail-edit" title="edit" >
+                        <FontAwesomeIcon icon={faEdit} style={{color:"#03a504", marginBottom:"2px", marginLeft:"53px"}} /></a>
                 </div>
                 <div className="detail-status">
                     <span>{props.active}</span>
@@ -32,10 +33,10 @@ export const DetResComp = (props) => (
                     <div className="get-touch">
                         <h4>Get in Touch</h4>
                         <ul>
-                            <li><i className="fa fa-map-marker"></i><span>{props.address}</span></li>
-                            <li><i className="fa fa-envelope"></i><span>{props.mail}</span></li>
-                            <li><i className="fa fa-phone"></i><span>{props.num}</span></li>
-                            <li><i className="fa fa-money"></i><span>{props.rate}</span></li>
+                            <li><i className="fa fa-map-marker"><FontAwesomeIcon icon={faMapMarker} style={{color:"#03a504"}} /></i><span>{props.address}</span></li>
+                            <li><i className="fa fa-envelope"><FontAwesomeIcon icon={faEnvelope} style={{color:"#03a504"}} /></i><span>{props.mail}</span></li>
+                            <li><i className="fa fa-phone"><FontAwesomeIcon icon={faPhone} style={{color:"#03a504"}} /></i><span>{props.num}</span></li>
+                            <li><i className="fa fa-money"><FontAwesomeIcon icon={faMoneyCheckAlt} style={{color:"#03a504"}} /></i><span>{props.rate}</span></li>
                         </ul>
                     </div>
                 </Col>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faMapMarker, faMoneyCheckAlt} from '@fortawesome/free-solid-svg-icons';
 
 export const BrowsResComp = (props) => (
     <div>
@@ -22,12 +23,12 @@ export const BrowsResComp = (props) => (
                 </Col>
                 <Col md={4} sm={4}>
                     <div className="brows-resume-location">
-                        <p><i className="fa fa-map-marker"></i>{props.address}</p>
+                        <p><i className="fa fa-map-marker"><FontAwesomeIcon icon={faMapMarker} /></i>{props.address}</p>
                     </div>
                 </Col>
                 <Col md={2} sm={2}>
                     <div className="browse-resume-rate">
-                        <span><i className="fa fa-money"></i>{props.rate}</span>
+                        <span><i className="fa fa-money"><FontAwesomeIcon icon={faMoneyCheckAlt} /></i>{props.rate}</span>
                     </div>
                 </Col>
             </Row>

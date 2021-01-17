@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoneyCheck, faMapMarker} from '@fortawesome/free-solid-svg-icons';
+import { faMoneyCheckAlt, faMapMarker} from '@fortawesome/free-solid-svg-icons';
 
 
 export const NewJobs = (props) => (
@@ -21,7 +21,7 @@ export const NewJobs = (props) => (
                 </div>
             </li>
             <li>
-                <p><span className="brows-job-sallery"><i className="fa fa-money"><FontAwesomeIcon icon={faMoneyCheck}/></i>{props.salary}</span></p>
+                <p><span className="brows-job-sallery"><i className="fa fa-money"><FontAwesomeIcon icon={faMoneyCheckAlt} style={{color:"#03a504"}} /></i>{props.salary}</span></p>
             </li>
         </ul>
     </div>
