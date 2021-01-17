@@ -37,6 +37,10 @@ function DetailResume() {
                 sk4 = "JS"
                 sk5 = "PHP"
                 sk6 = "Bootstrap"
+                address = "Menlo Park, CA"
+                mail = "danieldax704@gmail.com"
+                num = "0 123 456 7859"
+                rate = "$52/Hour"
             />
 
             {/* <section className="detail-desc">

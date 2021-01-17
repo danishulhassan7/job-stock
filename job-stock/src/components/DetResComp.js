@@ -8,23 +8,23 @@ export const DetResComp = (props) => (
         <Container className="container white-shadow">
             <Row className="row mrg-0">
                 <div className="detail-pic">
-                    <img src={clientImg} className="img" alt="client" />
+                    <img src={props.img} className="img" alt="client" />
                     <a href="#" className="detail-edit" title="edit" ><i className="fa fa-pencil"></i></a>
                 </div>
                 <div className="detail-status">
-                    <span>7 Hour Days Ago</span>
+                    <span>{props.active}</span>
                 </div>
             </Row>
             <Row className="row bottom-mrg mrg-0">
                 <Col md={8} sm={8}>
                     <div className="detail-desc-caption">
-                        <h4 className="ml-3">Daniel Dax</h4>
-                        <span className="designation ml-3">Web Developer</span>
-                        <p className="ml-3" style={{ fontSize: "16px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h4 className="ml-3">{props.name}</h4>
+                        <span className="designation ml-3">{props.title}</span>
+                        <p className="ml-3" style={{ fontSize: "16px" }}>{props.desc}</p>
                     </div>
                     <div className="detail-desc-skill" style={{ fontSize: "13px" }}>
-                        <span className="ml-2">HTML</span><span>css</span><span>photoshop</span>
-                        <span>java</span><span>php</span><span>bootstrap</span>
+                        <span className="ml-2">{props.sk1}</span><span>{props.sk2}</span><span>{props.sk3}</span>
+                        <span>{props.sk4}</span><span>{props.sk5}</span><span>{props.sk6}</span>
                     </div>
                 </Col>
                 <Col md={4} sm={4}>
