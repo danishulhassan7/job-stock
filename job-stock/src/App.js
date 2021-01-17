@@ -8,6 +8,7 @@ import AccordionStyle  from './components/AccordionStyle';
 import BrowseResume from './components/BrowseResume';
 import ManageResume from './components/ManageResume';
 import Footer from './components/Footer';
+import DetailResume from './components/DetailResume';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path="/footer" component={ Footer } />
           <Route path="/accordionStyle" component={ AccordionStyle } /> 
           <Route path="/browseResume" component={ BrowseResume } />          
-          <Route path="/manageResume" component={ ManageResume } />         
+          <Route path="/manageResume" component={ ManageResume } />    
+          <Route path="/detailResume" component={ DetailResume } />         
         </Switch>
     </Router>
   </React.Fragment>
