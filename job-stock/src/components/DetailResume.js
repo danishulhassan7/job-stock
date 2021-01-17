@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import clientImg from '../assets/img/client-1.jpg';
+import {DetResComp} from './DetResComp';
 import Footer from './Footer';
 
 
@@ -21,7 +22,24 @@ function DetailResume() {
                 </Container>
             </section>
 
-            <section className="detail-desc">
+            {/* Adding DetResComp (Props) */}
+
+
+            <DetResComp
+                img = {clientImg}
+                name = "Daniel Dax"
+                title = "Web Developer"
+                active = "08 Hours Ago"
+                desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                sk1 = "HTML"
+                sk2 = "CSS"
+                sk3 = "Photoshop"
+                sk4 = "JS"
+                sk5 = "PHP"
+                sk6 = "Bootstrap"
+            />
+
+            {/* <section className="detail-desc">
                 <Container className="container white-shadow">
                     <Row className="row mrg-0">
                         <div className="detail-pic">
@@ -76,7 +94,7 @@ function DetailResume() {
                         </Row>
                     </div>
                 </Container>
-            </section>
+            </section> */}
 
             {/* Adding Desc Section  */}
             <section className="full-detail-description full-detail">
