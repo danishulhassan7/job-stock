@@ -31,10 +31,10 @@ export const DetResComp = (props) => (
                     <div className="get-touch">
                         <h4>Get in Touch</h4>
                         <ul>
-                            <li><i className="fa fa-map-marker"></i><span>Menlo Park, CA</span></li>
-                            <li><i className="fa fa-envelope"></i><span>danieldax704@gmail.com</span></li>
-                            <li><i className="fa fa-phone"></i><span>0 123 456 7859</span></li>
-                            <li><i className="fa fa-money"></i><span>$52/Hour</span></li>
+                            <li><i className="fa fa-map-marker"></i><span>{props.address}</span></li>
+                            <li><i className="fa fa-envelope"></i><span>{props.mail}</span></li>
+                            <li><i className="fa fa-phone"></i><span>{props.num}</span></li>
+                            <li><i className="fa fa-money"></i><span>{props.rate}</span></li>
                         </ul>
                     </div>
                 </Col>
