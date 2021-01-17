@@ -53,6 +53,7 @@ p {
 	text-transform: uppercase
 }
 
+
 .dark .main-heading h2,
 .dark .main-heading p {
 	color: #fff
@@ -881,6 +882,7 @@ a.btn.call-btn {
 	color: #35434e;
 	margin-bottom: 5px;
 	display: inline-block
+	font-size: 11px;
 }
 
 .detail-desc-caption ul {
@@ -983,6 +985,7 @@ ul.sidebar-list li a {
 	color: #35434e;
 	margin-bottom: 5px;
 	display: inline-block
+	font-size: 11px;
 }
 .get-touch h4 {
 	color: #35434E;
@@ -1193,6 +1196,16 @@ ul.detail-footer-social li a i:hover {
 		float: left!important;
 		width: 100%
 	}
+	.full-detail .panel-body {
+		padding: 0
+	}
+	h2.detail-title {
+		font-size: 17px;
+		padding: 10px 12px
+	}
+	ul.detail-list {
+		padding: 0
+	}
 }
 
 @media screen and (max-width:479px){
@@ -1205,6 +1218,9 @@ ul.detail-footer-social li a i:hover {
 		float: left;
 		margin-right: 10px;
 		padding: 8px 18px
+	}
+	.detail-desc {
+		margin-top:140px;
 	}
 }
 
