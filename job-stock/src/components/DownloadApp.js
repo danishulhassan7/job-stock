@@ -4,7 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Banner from '../assets/img/banner-7.jpg';
 import appImg from '../assets/img/iphone.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faAppleAlt} from '@fortawesome/free-solid-svg-icons';
 
 export const DownloadApp = (props) => (
     <Styles>
@@ -18,9 +19,13 @@ export const DownloadApp = (props) => (
                             <h2>Download Our Best Apps</h2>
                             <h4>Best oppertunity in your hand</h4>
                             <p>Aliquam vest Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus similique vitae error tempora eos dolor!</p>
-                            <a href="#" className="btn call-btn"><i className="fa fa-apple"></i>Download</a><a href="#"
+                            <a href="#" className="btn call-btn"><i className="fa fa-apple">
+                                <FontAwesomeIcon icon={faAppleAlt}/>
+                                </i>Download</a><a href="#"
                                 className="btn call-btn"><i
-                                    className="fa fa-android"></i>Download</a>
+                                    className="fa fa-android">
+                                        <FontAwesomeIcon icon={faAppleAlt}/>
+                                        </i>Download</a>
                         </div>
                     </Col>
                 </Row>

@@ -5,6 +5,8 @@ import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import Footer from './Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faList} from '@fortawesome/free-solid-svg-icons';
 
 function AccordionStyle() {
     return (
@@ -25,7 +27,7 @@ function AccordionStyle() {
                             <Card>
                                 <Card.Header>
                                     <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{ backgroundColor: '#03a504', color: '#ffffff' }}>
-                                        <h4>Section 01</h4>
+                                        <h4> <FontAwesomeIcon icon={faList} /> Section 01</h4>
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="0">
@@ -35,7 +37,7 @@ function AccordionStyle() {
                             <Card>
                                 <Card.Header>
                                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                        <h4>Section 02</h4>
+                                        <h4><FontAwesomeIcon icon={faList} /> Section 02</h4>
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="1">
@@ -45,7 +47,7 @@ function AccordionStyle() {
                             <Card>
                                 <Card.Header>
                                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                                        <h4>Section 03</h4>
+                                        <h4><FontAwesomeIcon icon={faList} /> Section 03</h4>
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="2">
@@ -59,7 +61,7 @@ function AccordionStyle() {
                             <Card>
                                 <Card.Header>
                                     <Accordion.Toggle as={Button} variant="link" eventKey="0" style={{ backgroundColor: '#03a504', color: '#ffffff' }}>
-                                        <h4>Section A</h4>
+                                        <h4><FontAwesomeIcon icon={faList} /> Section A</h4>
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="0">
@@ -69,7 +71,7 @@ function AccordionStyle() {
                             <Card>
                                 <Card.Header>
                                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                        <h4>Section B</h4>
+                                        <h4><FontAwesomeIcon icon={faList} /> Section B</h4>
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="1">
@@ -79,7 +81,7 @@ function AccordionStyle() {
                             <Card>
                                 <Card.Header>
                                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                                        <h4>Section C</h4>
+                                        <h4><FontAwesomeIcon icon={faList} /> Section C</h4>
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="2">

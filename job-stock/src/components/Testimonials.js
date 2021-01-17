@@ -1,5 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar, faStarHalf} from '@fortawesome/free-solid-svg-icons';
 
 export const Testimonials = (props) => (
 
@@ -12,9 +14,9 @@ export const Testimonials = (props) => (
         {props.title}
         </h3>
         <ul className="client-testimonial-rating">
-            <li className="fa fa-star-o"></li>
-            <li className="fa fa-star-o"></li>
-            <li className="fa fa-star"></li>
+            <li className="fa fa-star-o"><FontAwesomeIcon icon={faStar}/></li>
+            <li className="fa fa-star-o"><FontAwesomeIcon icon={faStar}/></li>
+            <li className="fa fa-star"><FontAwesomeIcon icon={faStarHalf}/></li>
         </ul>
     </div>
 );

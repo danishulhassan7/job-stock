@@ -29,6 +29,7 @@ import { DownloadApp } from './DownloadApp';
 import Footer from './Footer';
 
 
+
 export const Home = () => (
     <Styles>
         <div className="jumbo" style={{ backgroundImage: "url(" + HomeImg + ")" }}>

@@ -6,6 +6,7 @@ import Styles from './Styles';
 import FooterImg from '../assets/img/footer-logo.png';
 import FooterForm from './FooterForm';
 
+
 function Footer() {
     return (
         <Styles>

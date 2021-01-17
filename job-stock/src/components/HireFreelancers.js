@@ -2,7 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Styles from './Styles';
 import { Button } from 'react-bootstrap';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStarHalf, faStar} from '@fortawesome/free-solid-svg-icons';
 
 
 export const HireFreelancers = (props) => (
@@ -19,9 +20,13 @@ export const HireFreelancers = (props) => (
                     <h4>{props.title}</h4>
                     <span className="location">{props.country}</span>
                 </div>
-                <div className="rattings"><i className="fa fa-star fill"></i><i className="fa fa-star fill"></i><i
-                    className="fa fa-star fill"></i><i className="fa fa-star-half fill"></i><i
-                        className="fa fa-star"></i></div>
+                <div className="rattings">
+                    <i className="fa fa-star fill"><FontAwesomeIcon icon={faStar}/></i>
+                    <i className="fa fa-star fill"><FontAwesomeIcon icon={faStar}/></i>
+                    <i className="fa fa-star fill"><FontAwesomeIcon icon={faStar}/></i>
+                    <i className="fa fa-star-half fill"><FontAwesomeIcon icon={faStarHalf}/></i>
+                    <i className="fa fa-star"><FontAwesomeIcon icon={faStar}/></i>
+                    </div>
             </div>
             <div className="freelance-box-extra">
                 <p>{props.desc}</p>

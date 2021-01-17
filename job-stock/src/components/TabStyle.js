@@ -5,6 +5,8 @@ import { Container, Row, Col, Tabs, Tab } from 'react-bootstrap';
 import Styles from './Styles';
 import bannerImg from '../assets/img/banner-10.jpg';
 import Footer from './Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoneyCheck, faMapMarker} from '@fortawesome/free-solid-svg-icons';
 
 function TabStyle() {
     const [key, setKey] = useState('Section-1');
@@ -31,7 +33,7 @@ function TabStyle() {
                             onSelect={(k) => setKey1(k)}
                         >
                             <Tab eventKey="Tab-1" title="Tab-1" className="mt-3">
-                                <h2>Tab 01</h2>
+                                <h2> Tab 01</h2>
                                 <p>Tab-1 ipsum dolor sit, amet consectetur adipisicing elit. Provident illo, nostrum sit quasi magnam itaque tenetur laboriosam impedit est fuga facere quod earum aut explicabo vel quo, dolore voluptates laudantium eius? Alias aliquid dolorum, error autem fugiat voluptas non. A aspernatur ratione necessitatibus reiciendis facere?</p>
                             </Tab>
                             <Tab eventKey="Tab-2" title="Tab-2" className="mt-3">
