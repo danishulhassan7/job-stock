@@ -1171,38 +1171,94 @@ ul.detail-list li:before {
 	font-family: fontawesome
 }
 
+// Adding CSS of HireAndJoin Section
 
-// Adding CSS of Brands 
-
-
-.company-brand {
-	background: rgba(52, 58, 64, .7);
-	margin-top: 50px;
-	display: table;
-	padding: 2em 0;
-	width: 100%;
-	position: relative
+section.call-to-act {
+	padding: 0
 }
 
-.company-brand img {
-	display: block;
-	margin: 0 auto;
-	opacity: .42
-}
-.company-brand img:focus,
-.company-brand img:hover {
-	opacity: 1
-}
-.company-brand.freelancer {
-	position: relative;
-	margin-top: 0;
-	padding: 40px 0;
-	background: #f2f7fb
+.gr-dark {
+	background: #11b719
 }
 
-.company-brand.freelancer img {
-	opacity: .8
+.call-to-act-caption {
+	padding: 5em 4em;
+	text-align: center
 }
+
+.call-to-act-caption h2 {
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 0
+}
+
+.call-to-act-caption h3 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 18px
+}
+
+.gr-dark .call-to-act-caption h3 {
+	color: #beffab
+}
+
+.bl-dark .call-to-act-caption h3 {
+	color: #9eb3c3
+}
+
+.bl-dark a.btn.bat-call-to-act {
+	border: 1px solid #475865
+}
+
+.gr-dark a.btn.bat-call-to-act {
+	border: 1px solid #39c713
+}
+
+a.btn.bat-call-to-act {
+	padding: 13px 56px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-size: 17px;
+	background: rgba(2, 2, 2, .15);
+	transition: all ease-in-out .4s;
+	color: #fff;
+	margin-top: 15px
+}
+
+a.btn.bat-call-to-act:focus,
+a.btn.bat-call-to-act:hover {
+	background: rgba(255, 255, 255, .1)
+}
+.bl-dark {
+	background: #35434e
+}
+
+.bl-dark a.btn.bat-call-to-act {
+	border: 1px solid #475865
+}
+
+.gr-dark a.btn.bat-call-to-act {
+	border: 1px solid #39c713
+}
+
+a.btn.bat-call-to-act {
+	padding: 13px 56px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-size: 17px;
+	background: rgba(2, 2, 2, .15);
+	transition: all ease-in-out .4s;
+	color: #fff;
+	margin-top: 15px
+}
+
+a.btn.bat-call-to-act:focus,
+a.btn.bat-call-to-act:hover {
+	background: rgba(255, 255, 255, .1)
+}
+
+
+
 
 
 
@@ -1251,6 +1307,10 @@ ul.detail-list li:before {
 	.advance-detail.detail-desc-caption ul li strong {
 		font-size: 60px;
 		line-height: 1.2
+	}
+	.container-fluid,
+	.no-padd {
+		padding: 0
 	}
 }
 
@@ -1301,6 +1361,14 @@ ul.detail-list li:before {
 	}
 	ul.detail-list {
 		padding: 0
+	}
+	.call-to-act-caption {
+		padding: 5em 1em;
+		text-align: center
+	}
+	.call-to-act-caption h3 {
+		line-height: 1.7;
+		font-size: 17px
 	}
 }
 
