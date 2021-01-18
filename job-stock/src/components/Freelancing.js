@@ -11,6 +11,7 @@ import can3 from '../assets/img/can-3.png';
 import can5 from '../assets/img/can-5.jpg';
 import appImg from '../assets/img/iphone.png';
 import { HireFreelancers } from './HireFreelancers';
+import {HireAndJoin} from './HireAndJoin';
 import Footer from './Footer';
 
 export const Freelancing = () => (
@@ -28,7 +29,7 @@ export const Freelancing = () => (
                 </Row>
             </Container>
         </div> <br /><br /><br />
-
+<HireAndJoin/>
 
         {/* How its Work section started  */}
         <section class="how-it-works">

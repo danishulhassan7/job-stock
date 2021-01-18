@@ -1172,6 +1172,39 @@ ul.detail-list li:before {
 }
 
 
+// Adding CSS of Brands 
+
+
+.company-brand {
+	background: rgba(52, 58, 64, .7);
+	margin-top: 50px;
+	display: table;
+	padding: 2em 0;
+	width: 100%;
+	position: relative
+}
+
+.company-brand img {
+	display: block;
+	margin: 0 auto;
+	opacity: .42
+}
+.company-brand img:focus,
+.company-brand img:hover {
+	opacity: 1
+}
+.company-brand.freelancer {
+	position: relative;
+	margin-top: 0;
+	padding: 40px 0;
+	background: #f2f7fb
+}
+
+.company-brand.freelancer img {
+	opacity: .8
+}
+
+
 
 
 
