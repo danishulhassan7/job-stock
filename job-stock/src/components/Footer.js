@@ -5,8 +5,8 @@ import { Container, Row, Col} from 'react-bootstrap';
 import Styles from './Styles';
 import FooterImg from '../assets/img/footer-logo.png';
 import FooterForm from './FooterForm';
-
-
+import FacebookIcon from '@material-ui/icons/Facebook';
+import EmailIcon from '@material-ui/icons/Email';
 function Footer() {
     return (
         <Styles>
