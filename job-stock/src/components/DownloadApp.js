@@ -6,6 +6,7 @@ import appImg from '../assets/img/iphone.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faAppleAlt} from '@fortawesome/free-solid-svg-icons';
+import AndroidIcon from '@material-ui/icons/Android';
 
 export const DownloadApp = (props) => (
     <Styles>
@@ -24,7 +25,7 @@ export const DownloadApp = (props) => (
                                 </i>Download</a><a href="#"
                                 className="btn call-btn"><i
                                     className="fa fa-android">
-                                        <FontAwesomeIcon icon={faAppleAlt}/>
+                                        <AndroidIcon/>
                                         </i>Download</a>
                         </div>
                     </Col>

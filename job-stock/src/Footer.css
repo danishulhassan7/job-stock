@@ -104,7 +104,8 @@ h3.widgettitle.widget-title {
 
 .footer-social li a:hover i {
 	background: #11b719;
-	color: #fff
+	color: #fff;
+	padding: 7px 5px;
 }
 
 ul.footer-navigation {

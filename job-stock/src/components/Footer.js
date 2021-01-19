@@ -7,6 +7,9 @@ import FooterImg from '../assets/img/footer-logo.png';
 import FooterForm from './FooterForm';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 function Footer() {
     return (
         <Styles>
@@ -38,11 +41,11 @@ function Footer() {
                                     <p><strong>Email:</strong> Support@careerdesk</p>
                                     <p><strong>Call:</strong> <a href="tel:+15555555555">555-555-1234</a></p>
                                     <ul className="footer-social">
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i> <FacebookIcon /></i></a></li>
+                                        <li><a href="#"><i><EmailIcon /></i></a></li>
+                                        <li><a href="#"><i><TwitterIcon /></i></a></li>
+                                        <li><a href="#"><i><InstagramIcon /></i></a></li>
+                                        <li><a href="#"><i><LinkedInIcon /></i></a></li>
                                     </ul>
                                 </div>
                             </div>

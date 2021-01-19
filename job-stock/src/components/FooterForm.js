@@ -16,7 +16,8 @@ function FooterForm() {
     <Form.Group controlId="exampleForm.ControlTextarea1">
         <Form.Control as="textarea" rows={3} placeholder="Message" />
     </Form.Group>
-    <Button variant="success">Login</Button>
+    <Button variant="success" style={{	backgroundColor:" #11b719",
+	color: "#fff"}}>Login</Button>
 </Form>
     );
 }
