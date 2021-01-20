@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Styles from './Styles';
-import { Button } from 'react-bootstrap';
+import { Button,Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStarHalf, faStar} from '@fortawesome/free-solid-svg-icons';
 
@@ -14,7 +14,7 @@ export const HireFreelancers = (props) => (
             <h4 className="flc-rate">{props.rate}</h4>
 
             <div className="freelance-inner-box">
-                <div className="freelance-box-thumb"><img src={props.img} height="104px"
+                <div className="freelance-box-thumb"><Image src={props.img} height="104px"
                     className="img-responsive img-circle" alt="" /></div>
                 <div className="freelance-box-detail">
                     <h4>{props.title}</h4>

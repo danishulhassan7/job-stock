@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './Styles';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,Image } from 'react-bootstrap';
 import Banner from '../assets/img/banner-7.jpg';
 import appImg from '../assets/img/iphone.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +13,7 @@ export const DownloadApp = (props) => (
         <section className="download-app" style={{backgroundImage: "url(" + Banner + ")"}}>
             <Container>
                 <Row>
-                    <Col md={5} sm={5} className="hidden-xs"><img src={appImg} alt="iphone"
+                    <Col md={5} sm={5} className="hidden-xs"><Image src={appImg} alt="iphone"
                         className="img-responsive" /></Col>
                     <Col md={7} sm={7}>
                         <div className="app-content">

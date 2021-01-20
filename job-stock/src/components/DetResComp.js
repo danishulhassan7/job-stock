@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faMoneyCheckAlt, faMapMarker, faEnvelope,faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,7 @@ export const DetResComp = (props) => (
         <Container className="container white-shadow">
             <Row className="row mrg-0">
                 <div className="detail-pic">
-                    <img src={props.img} className="img" alt="client" />
+                    <Image src={props.img} className="img" alt="client" />
                     <a href="#" className="detail-edit" title="edit" >
                         <FontAwesomeIcon icon={faEdit} style={{color:"#03a504", marginBottom:"2px", marginLeft:"53px"}} /></a>
                 </div>

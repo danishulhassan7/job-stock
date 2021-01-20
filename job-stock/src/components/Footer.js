@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, Image} from 'react-bootstrap';
 import Styles from './Styles';
 import FooterImg from '../assets/img/footer-logo.png';
 import FooterForm from './FooterForm';

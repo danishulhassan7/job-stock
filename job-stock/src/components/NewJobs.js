@@ -1,4 +1,5 @@
 import React from 'react';
+import {Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyCheckAlt, faMapMarker} from '@fortawesome/free-solid-svg-icons';
@@ -6,7 +7,7 @@ import { faMoneyCheckAlt, faMapMarker} from '@fortawesome/free-solid-svg-icons';
 
 export const NewJobs = (props) => (
     <div className="grid-view brows-job-list">
-        <div className="brows-job-company-img"><img src={props.img} className="img-responsive"
+        <div className="brows-job-company-img"><Image src={props.img} className="img-responsive"
             alt="" /></div>
         <div className="brows-job-position">
             <h3><a href="job-detail.html">{props.title}</a></h3>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMoneyCheckAlt, faEdit, faTrash} from '@fortawesome/free-solid-svg-icons';
@@ -11,7 +11,7 @@ export const MngRsmCmp = (props) => (
                 <Row>
                     <Col md={2} sm={2}>
                         <div className="mng-resume-pic">
-                            <img src={props.img} className="img-responsive" alt="" />
+                            <Image src={props.img} className="img-responsive" alt="" />
                         </div>
                     </Col>
                     <Col md={3} sm={3}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col,Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMapMarker, faMoneyCheckAlt} from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +12,7 @@ export const BrowsResComp = (props) => (
             <Row className="row no-mrg">
                 <Col md={2} sm={2}>
                     <div className="brows-resume-pic">
-                        <img src={props.img} className="img-responsive" alt="" />
+                        <Image src={props.img} className="img-responsive" alt="" />
                     </div>
                 </Col>
                 <Col md={4} sm={4}>

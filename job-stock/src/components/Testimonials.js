@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Image} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faStarHalf} from '@fortawesome/free-solid-svg-icons';
 
 export const Testimonials = (props) => (
 
     <div className="client-testimonial">
-        <div className="pic"><img src={props.img} alt="" /></div>
+        <div className="pic"><Image src={props.img} alt="" /></div>
         <p className="client-description">
         {props.desc}
         </p>
