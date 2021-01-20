@@ -10,6 +10,7 @@ import can1 from '../assets/img/can-1.png';
 import can3 from '../assets/img/can-3.png';
 import can5 from '../assets/img/can-5.jpg';
 import { HireFreelancers } from './HireFreelancers';
+import {FreelancingForm} from './FreelancingForm';
 import HireAndJoin from './HireAndJoin';
 import Footer from './Footer';
 
@@ -24,6 +25,7 @@ export const Freelancing = () => (
                         <p className="text-muted" style={{ fontStyle: "italic" }}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam commodi, soluta corrupti fugit aliquid nemo.
                         </p>
+                        <FreelancingForm />
                     </Col>
                 </Row>
             </Container>
