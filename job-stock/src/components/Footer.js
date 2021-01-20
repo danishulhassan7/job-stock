@@ -17,7 +17,7 @@ function Footer() {
                 <Container className="lg-menu">
                     <Row>
                         <Col md={4} sm={4}>
-                            <img src={FooterImg} className="img-responsive" alt="" />
+                            <Image src={FooterImg} className="img-responsive" alt="" />
                         </Col>
                         <Col className="pull-right" md={8} sm={8}>
                             <ul>
