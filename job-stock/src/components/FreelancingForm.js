@@ -9,7 +9,7 @@ export const FreelancingForm = (props) => (
         <section>
                 <Form
                  style={{
-                     padding:"30px",
+                     padding:"0px",
                     //  backgroundColor:"rgba(138, 131, 131, 0.465)"
                  }}>
                     <Form.Row className="align-items-center">
@@ -25,7 +25,7 @@ export const FreelancingForm = (props) => (
                             />
                         </Col>
                         <Col md={5}>
-                            <Button type="submit" className="mb-2" variant="success" style={{ backgroundColor: '#03a504', display: 'inline-block', padding: "6px 30px", fontSize: "20px" }}>
+                            <Button type="submit" className="mb-2" variant="success" style={{ backgroundColor: '#03a504', display: 'inline-block', padding: "8px 20px", fontSize: "20px" }}>
                                 Search
                              </Button>
                         </Col>
